@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import About from './pages/About';
-
+import ResidentialProvision from './pages/ResidentialProvision';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <Route path="/" element={<Layout/>}>
         <Route index element = {<Home/>}></Route>
         <Route  path='/about' element= {<About/>}></Route>
+        <Route  path='/residential_provision' element= {<ResidentialProvision/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

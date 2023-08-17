@@ -10,7 +10,7 @@ function Footer() {
   return (
     <div>
         
-<footer class="bg-white rounded-lg shadow dark:bg-navcolour mx-0 mt-96">
+<footer class="bg-white  shadow dark:bg-navcolour mx-0 mt-20">
     <div class="w-full max-w-screen-xl mx-auto p-1 md:py-8">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
 
@@ -44,13 +44,13 @@ function Footer() {
             <div class="sm:flex sm:items-center sm:justify-center mx-12 mt-5">
                 <ul class=" mt-8 mx-8 flex flex-wrap items-center mb-6 text-2xl font-medium text-gray-500 sm:mb-0 dark:text-white">
                     <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6 font-larger">About</a>
+                        <a href="#" class="mr-4 hover:underline md:mr-6 font-large">About</a>
                     </li>
                     <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6 font-larger">Privacy Policy</a>
+                        <a href="#" class="mr-4 hover:underline md:mr-6 font-large">Privacy Policy</a>
                     </li>
                     <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6 font-larger">Licensing</a>
+                        <a href="#" class="mr-4 hover:underline md:mr-6 font-large">Licensing</a>
                     </li>
                     <li>
                         <a href="#" class="hover:underline font-large">Contact</a>

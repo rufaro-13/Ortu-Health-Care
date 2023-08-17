@@ -14,6 +14,16 @@ module.exports = {
         'navcolour':'#231f32',
         'pinktheme':'#ff1493',
         'bluetheme':'#89cff0',
+      },
+
+      backgroundImage: {
+        'hero_pattern': "url('/src/images/hero_image.jpg')",
+        
+      },
+      fontFamily: {
+        //'sans': ['Proxima Nova'],
+        'cursive':['Lucida Handwriting'],
+        'malanya':['malanya'],
       }
     },
     
