@@ -165,9 +165,7 @@ function ResidentialProvision() {
 
         </div>
 
-        <div class=" sm:items-center sm:justify-center mx-6 mt-10 pr-8">
-            
-
+        <div class=" sm:items-center sm:justify-center mx-6 mt-10 pr-8">    
           <div class="sm:flex sm:items-center  mx-6 mt-5">
             <span class="text-black text-3xl font-bold underline decoration-pinktheme ">Our Care Programme<br/><br/></span>
           
@@ -188,7 +186,6 @@ function ResidentialProvision() {
                     </p>
                   </div>
           </div>
-
           <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center   mx-8 mt-1">
 
                 <IconContext.Provider value={{ color: 'white', size: '50px', padding:'5px 2px' }}>
