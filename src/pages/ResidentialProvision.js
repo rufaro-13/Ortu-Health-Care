@@ -1,7 +1,8 @@
 import React from 'react'
 import younggirl from '../images/young-disabled-african-american-woman-wheelchair-home.jpg'
 import { IconContext } from "react-icons";
-import {FaBookOpen} from 'react-icons/fa6'
+import { Link } from "react-router-dom";
+import {FaBookOpen, FaHandshakeAngle, FaSchool, FaStreetView, FaUserGroup} from 'react-icons/fa6'
 function ResidentialProvision() {
   return (
     <div class="md:container md:mr-16 md:ml-16 mt-24">
@@ -45,8 +46,10 @@ function ResidentialProvision() {
                   </IconContext.Provider>
                   <div class="  sm:items-center sm:justify-center  mx-6 mt-5">
                     <p class=" text-2xl font-semibold">
-                    <div><span class="text-black text-2xl font-bold">Admissions Policy</span></div>
-                        Download a copy of our admissions policy here.
+                    <div><span class="text-black text-1xl font-bold">Admissions Policy</span></div>
+                        Download a copy of our admissions policy <Link
+                to="/"className="block py-2 pl-3 pr-4 underline text-pinktheme rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-pinktheme dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >here.</Link>
                     </p>
                   </div>
         </div>
@@ -159,6 +162,90 @@ function ResidentialProvision() {
                   </ul>
                   </p>
                 </p>
+
+        </div>
+
+        <div class=" sm:items-center sm:justify-center mx-6 mt-10 pr-8">
+            
+
+          <div class="sm:flex sm:items-center  mx-6 mt-5">
+            <span class="text-black text-3xl font-bold underline decoration-pinktheme ">Our Care Programme<br/><br/></span>
+          
+          </div>
+
+          <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center   mx-8 mt-2">
+
+                <IconContext.Provider value={{ color: 'white', size: '50px', padding:'5px 2px' }}>
+                    <div class="  sm:items-center sm:justify-center bg-pinktheme mx-5 mt-5 mb-5">
+                       <FaSchool class="sm:items-center sm:justify-center mx-6 my-6"/>
+                    </div>
+                  </IconContext.Provider>
+                  <div class="  sm:items-center sm:justify-center  mx-6 mt-1">
+                    <p class=" text-1xl font-normal">
+                    <div><span class="text-black text-2xl font-bold">Secure Based Model</span></div>
+                    Sensitivity - Managing Feelings,  Acceptance - Self-Esteem,  Co-operation - Feeling Effective, 
+                     Family Membership - Belonging,  Availability - Trust.
+                    </p>
+                  </div>
+          </div>
+
+          <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center   mx-8 mt-1">
+
+                <IconContext.Provider value={{ color: 'white', size: '50px', padding:'5px 2px' }}>
+                    <div class="  sm:items-center sm:justify-center bg-pinktheme mx-5 mt-5 mb-5">
+                       <FaHandshakeAngle class="sm:items-center sm:justify-center mx-6 my-6"/>
+                    </div>
+                  </IconContext.Provider>
+                  <div class="  sm:items-center sm:justify-center  mx-6 mt-1">
+                    <p class=" text-1xl font-normal">
+                    <div><span class="text-black text-2xl font-bold">Trauma Informed Practice</span></div>
+                    Safety-feeling physically and psychologically safe.
+                    </p>
+                  </div>
+          </div>
+
+          <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center  mx-8 mt-1">
+
+                <IconContext.Provider value={{ color: 'white', size: '50px', padding:'5px 2px' }}>
+                    <div class="  sm:items-center sm:justify-center bg-pinktheme mx-5 mt-5 mb-5">
+                       <FaStreetView class="sm:items-center sm:justify-center mx-6 my-6"/>
+                    </div>
+                  </IconContext.Provider>
+                  <div class="  sm:items-center sm:justify-center  mx-6 mt-1">
+                    <p class=" text-1xl font-normal">
+                    <div><span class="text-black text-2xl font-bold">PACE</span></div>
+                    Playfulness, Acceptance, Curiosity, Empathy.
+                    </p>
+                  </div>
+          </div>
+
+          <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center   mx-8 mt-1">
+
+                <IconContext.Provider value={{ color: 'white', size: '50px', padding:'5px 2px' }}>
+                    <div class="  sm:items-center sm:justify-center bg-pinktheme mx-5 mt-5 mb-5">
+                       <FaUserGroup class="sm:items-center sm:justify-center mx-6 my-6"/>
+                    </div>
+                  </IconContext.Provider>
+                  <div class="  sm:items-center sm:justify-center  mx-6 mt-1">
+                    <p class=" text-1xl font-normal">
+                    <div><span class="text-black text-2xl font-bold">Therapeutic Community Model</span></div>
+                    A residential, participative approach with individual and group-based sessions. Highly structured days with opportunities 
+                    for community and personal chores, exercise, education and vocational time.
+                    </p>
+                  </div>
+          </div>
+
+          <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center bg-slate-200  mx-6 mt-8">
+
+              
+                <p class=" text-2xl font-light font-serif">
+                At Ortu, we provide a nurturing pathway to overcome adversity. We believe that the heart of this starts with 
+                relationships, in order to build growth, trust and development in all the young people we are fortunate enough
+                 to care for and educate.
+                </p>
+              
+           
+          </div>
 
         </div>
     

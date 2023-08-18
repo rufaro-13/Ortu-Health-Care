@@ -14,6 +14,7 @@ module.exports = {
         'navcolour':'#231f32',
         'pinktheme':'#ff1493',
         'bluetheme':'#89cff0',
+        'red':'#ff0000'
       },
 
       backgroundImage: {
