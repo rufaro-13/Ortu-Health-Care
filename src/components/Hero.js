@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+//import About from "../pages/About"
 import residential from "../images/shelter.gif"
 import care from "../images/social-care.gif"
 import education from "../images/book.gif"
@@ -7,10 +8,10 @@ const Hero = () => {
     
 
 
-<section class="bg-center bg-no-repeat bg-hero_pattern bg-gray-700 bg-blend-multiply bg-cover">
+<section class="bg-center bg-no-repeat bg-hero_pattern bg-gray-700 bg-blend-multiply bg-cover mt-0">
     <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-44">
         <p class=" text-bluetheme text-6xl mb-6 font-cursive">Welcome to <span class="font-extrabold">Ortu</span></p>
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-4xl font-sans">Specialised care and home for children and young people</h1>
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-4xl font-sans">Specialised Care and Home for children and young people</h1>
         <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Making a lifelong and lasting difference to young people’s lives. </p>
         <div class="flex flex-col space-y-4 pt-6 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             
@@ -40,6 +41,8 @@ const Hero = () => {
             </a>
            
         </div>
+
+        
     </div>
 </section>
 

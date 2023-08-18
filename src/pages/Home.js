@@ -24,9 +24,9 @@ function Home() {
 
 
 
-<div className="flex min-h-screen items-center justify-center p-4">
-  <div className="flex w-full lg:w-3/4 p-8 overflow-hidden">
-    <div className="flex-1 bg-gradient-to-br from-purple-600 to-purpletheme rounded-lg p-6 text-white">
+<div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+  <div className="flex flex-col w-full lg:w-3/4 p-8 overflow-hidden lg:flex-row">
+    <div className="bg-gradient-to-br from-purple-600 to-purpletheme rounded-lg p-6 text-white lg:w-1/2">
       <h1 className="text-3xl font-semibold mb-4">Home Residential Care Provision</h1>
       <p className="mb-4">
         We support our young people in small, family-style homes, meeting the needs of the
@@ -49,10 +49,12 @@ function Home() {
       <br/>
       <Link to="/residential_provision"><button type="button" class="border border-white rounded p-3 font-bold hover:bg-bluetheme">Learn more</button></Link>
     </div>
-    <div className="flex-1 bg-blue-300 rounded-lg overflow-hidden">
+    <div className="bg-blue-300 rounded-lg overflow-hidden lg:w-1/2 mt-6 sm:mt-0">
       <img src={residentialprov} alt="Residential Care" className="w-full h-full object-cover" />
     </div>
   </div>
+
+
   
 {/*   <button
   onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}

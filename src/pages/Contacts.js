@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 import { Link } from "react-router-dom";
 import { IconContext } from "react-icons";
@@ -21,7 +22,22 @@ function Contacts() {
     const changeHandler =(event)=>{
         setFormState({...formState,[event.target.name]:event.target.value});
     } */
-        return (
+        
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_b2hb07s', 'template_cijzcy4', form.current, 'ZAfncGVBcE90Kox10')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
+    
+    return (
     <div class="md:container md:mr-16 md:ml-16 mt-24">
 
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
@@ -39,16 +55,17 @@ function Contacts() {
             
         </div>
 
-        <div class="max-w-fit sm:82 rounded-lg sm:flex items-center sm:items-center sm:justify-center   mx-8 mt-1">
+        <center>
+        <div class="max-w-fit sm:82 rounded-lg md:flex items-center sm:items-center sm:justify-center   mx-8 mt-1">
 
-            <div class="md:w-1/2  sm:82 rounded-lg  bg-bluetheme sm:items-center sm:justify-center   ml-48 mt-8">
+            <div class="max-w-fit  sm:82 rounded-lg   sm:items-center sm:justify-center   ml-48 mt-8">
 
                 <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
                     <div class="  sm:items-center sm:justify-center  mx-5 mt-5 mb-5">
                        <FaEnvelopeOpenText class="sm:items-center sm:justify-center mx-6 my-6"/>
                     </div>
                   </IconContext.Provider>
-                  <div class="  sm:items-center sm:justify-center  mx-6 mt-1">
+                  <div class="  sm:items-center sm:justify-center  mt-1">
                     <p class=" text-1xl font-normal">
                     <div><span class="text-black text-2xl font-bold"><a href="mailto:info@ortuhome.com" className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Email Us</a></span></div>
                     info@ortuhome.com
@@ -56,17 +73,17 @@ function Contacts() {
                   </div>
             </div>
 
-            <div class="md:w-1/2  sm:82 rounded-lg bg-bluetheme sm:items-center sm:justify-center   ml-96 mt-8">
+            <div class="max-w-fit  sm:82 rounded-lg  sm:items-center sm:justify-center   ml-48 mt-8">
 
                   <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
-                    <a href="tel:0116 221 3539"><div class="  sm:items-center sm:justify-center bg-bluetheme mx-5 mt-5 mb-5">
-                       <FaMobileScreenButton class="sm:items-center sm:justify-center mx-6 my-6"/>
+                    <a href="tel:0116 221 3539"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                       <FaMobileScreenButton class="sm:items-center sm:justify-center  my-6"/>
                     </div></a>
                   </IconContext.Provider>
-                  <div class="  sm:items-center sm:justify-center  mx-6 mt-1">
+                  <div class="  sm:items-center sm:justify-center   mt-1">
                     <p class=" text-1xl font-normal">
                     <div><span class="text-black text-2xl font-bold"><a href="tel:0116 221 3539" 
-                    className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call Us</a></span></div>
+                    className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call Us</a></span></div>
                     0116 221 3539
                     </p>
                   </div>
@@ -74,7 +91,7 @@ function Contacts() {
             </div>
         </div>
 
-
+        </center>
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
             <span class="text-black text-3xl font-bold underline decoration-bluetheme ">Our online contact form<br/><br/></span>
                 
@@ -91,25 +108,25 @@ function Contacts() {
 
         <div  class="md:w-full  sm:82 rounded-lg  sm:items-start    mx-4 mt-8">
            <center> 
-            <form class=" ">
-                <div class="max-w-fit space-x-1 rounded-lg sm:flex grid  md:gap-1   mt-1">
-                    <div class="mb-6 ml-0">
-                        <label for="Name" class="ml-0 block mb-2 text-sm font-medium text-gray-900 dark:text-black">First Name <span class="text-red text-1xl italic font-normal">(Required)</span></label>
-                        <input type="text" id="name" size="60" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 py-2.5 px-0 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="your first name" required/>
-                    </div>
-                    <div class="mb-6 ml-0">
-                        <label for="surname" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Last Name <span class="text-red text-1xl italic font-normal">(Required)</span></label>
-                        <input type="text" id="surname" size="60" class=" shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 py-2.5 px-0 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"placeholder="your last name" required/>
-                    </div>
-                </div>    
+            <form class=" " ref={form} onSubmit={sendEmail}>
+                
+                <div class="mb-6 ml-0">
+                    <label for="name" class="ml-0 block mb-2 text-sm font-medium text-gray-900 dark:text-black">Full Name <span class="text-red text-1xl italic font-normal">(Required)</span></label>
+                    <input type="text" name="user_name" id="name" size="60" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block fit py-2.5 px-0 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="example: John Smith" required/>
+                </div>
+                       
                 <div class="mb-6">
                     <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Email <span class="text-red text-1xl italic font-normal">(Required)</span></label>
-                    <input type="email" id="email"size="30" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required/>
+                    <input type="email"name="user_email" id="email"size="60" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-fit py-2.5 px-0 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="example: name@email.com" required/>
+                </div> 
+                <div class="mb-6 ml-0">
+                    <label for="subject" class="ml-0 block mb-2 text-sm font-medium text-gray-900 dark:text-black">Subject <span class="text-red text-1xl italic font-normal">(Required)</span></label>
+                    <input type="text" name="subject" id="subject" size="60" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-fit py-2.5 px-0 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="" required/>
                 </div>
 
                 <div class="mb-6">
                     <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Messsage <span class="text-red text-1xl italic font-normal">(Required)</span></label>
-                    <textarea id="message" rows="5" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required/>
+                    <textarea id="message" name="message"rows="5" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required/>
                 </div>
 
                 <div class="mb-6 w-1/2">
