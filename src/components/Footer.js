@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/ortu-logo.svg';
+import logo from '../images/ortu_png.png';
 import social from '../images/social-care-network-logo.png.webp';
 import careskills from '../images/careskills-academy-logo.png.webp';
 import elsa from '../images/elsa-logo.png.webp';
@@ -16,7 +16,7 @@ function Footer() {
 
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="#" class="flex items-center mb-4 sm:mb-0">
-                    <img src={logo}class="h-12 mr-3" alt="Flowbite Logo" />
+                    <img src={logo}class="h-24 mr-3" alt="Flowbite Logo" />
                 </a>
 
                 <a href="https://careskillsacademy.co.uk/" class="flex items-center mb-4 sm:mb-0">

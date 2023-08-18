@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Link } from "react-router-dom";
-import logo from "../images/ortu-logo.svg"
+import logo from "../images/ortu_png.png"
 
 const NavigBar = () => {
   return (
@@ -13,7 +13,7 @@ const NavigBar = () => {
         >
           <img
             src={logo}
-            className="h-12 mr-3"
+            className="h-24 mr-3"
             alt="ortu-health logo"
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
