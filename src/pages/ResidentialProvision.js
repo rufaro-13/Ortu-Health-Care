@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import {FaBookOpen, FaHandshakeAngle, FaSchool, FaStreetView, FaUserGroup} from 'react-icons/fa6'
 function ResidentialProvision() {
   return (
-    <div class="md:container md:mr-16 md:ml-16 mt-24">
+    <div class="md:container md:mr-16 md:ml-16 pt-28">
         
          <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-8">
             <div class="md:w-1/2  sm:82 rounded-lg  sm:items-center sm:justify-center   mx-4 mt-8">

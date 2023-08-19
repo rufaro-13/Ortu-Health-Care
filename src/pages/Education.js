@@ -14,7 +14,7 @@ function Education() {
   
   return (
     <div>
-    <div class="md:container md:mr-16 md:ml-16 pt-16">
+    <div class="md:container md:mr-16 md:ml-16 pt-14">
       <div class="sm:flex sm:items-center sm:justify-center mx-12 mt-24">
         <div>
     <div class="text-center font-semibold py-4 text-3xl">

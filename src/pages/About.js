@@ -4,7 +4,7 @@ import classroom from "../images/ortu-class-rooms.png.webp"
 import team from "../images/team_4540467.png"
 function About() {
   return (
-    <div class="md:container md:mr-16 md:ml-16 mt-32">
+    <div class="md:container md:mr-16 md:ml-16 pt-24">
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
             <p class="text-3xl"><span class="text-pinktheme ">Ortu Specialised Care and Home </span>
             are here to make a lifelong and lasting difference to young people's lives.</p>

@@ -38,7 +38,7 @@ function Contacts() {
   };
     
     return (
-    <div class="md:container md:mr-16 md:ml-16 mt-24">
+    <div class="md:container md:mr-16 md:ml-16 pt-32">
 
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
             <span class="text-black text-3xl font-bold underline decoration-bluetheme ">Contacting Ortu Specialised Care and Home<br/><br/></span>

@@ -5,7 +5,7 @@ import society from '../images/society.gif'
 
 function Team() {
   return (
-    <div class="md:container md:mr-16 md:ml-16 mt-24">
+    <div class="md:container md:mr-16 md:ml-16 pt-28">
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
             <span class="text-black text-3xl font-bold">Ortu Team</span>
             <img src={society} alt="route icon" className="w-24 h-20"></img>
