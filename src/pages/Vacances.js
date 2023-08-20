@@ -26,7 +26,21 @@ function Vacances() {
 
             You will be part of a diverse and vibrant community of professionals who are outcomes focussed and operate with a strong team ethos.<br/><br/>
 
-            Ortu offers regular training and support to all of its staff and will work closely with individuals to improve their professional career portfolios.  
+            Ortu offers regular training and support to all of its staff and will work closely with individuals to improve their professional career portfolios. <br/><br/>
+            Our job descriptions are all written with the following four key points about Ortu in mind:<br/><br/>
+            <span className=" font-bold">1. Our Vision</span><br/>
+            For all people with a learning disability to live a life that makes sense to them.<br/><br/>
+
+            <span className=" font-bold">2. Our Mission</span><br/>
+            We will support a sense of wellbeing through a celebration of each person’s unique gifts, talents and contributions, the quality of our relationships and ensuring the
+             promotion of real opportunities to connect with others.<br/><br/>
+
+             <span className=" font-bold">3. Our purpose</span><br/>
+             To achieve excellence in everything we do.
+              Ortu’s “primary purpose” is to make a positive contribution to the lives of children and adults with disabilities. We make this contribution by ensuring that all our interactions are great, that our knowledge and skills represent excellence and that we support people to develop purposeful and warm relationships. Our “secondary purpose” is to have a positive influence in our local communities and on our sector by connecting well, nurturing partnerships and demonstrating best practice.<br/><br/>
+
+              <span className=" font-bold">4. Our DNA</span><br/>
+              Ortu has a particular way of working with people and because it is so important to all our activities we call it our ethos. It is a combination of our values and the way that we put those values into actions that is unique to Ortu. Through our Promises and Value Base, the promotion of Great Interactions and Person Centred Approaches, we aim to support every person to live a life that makes sense to them, with a level and style of support of their choosing.
             </p>
             <br/>
             
@@ -480,55 +494,7 @@ function Vacances() {
                 </ul>
             </p>
 
-            <br/><span className=" font-bold">Responsibilities</span><br/>
-            <p>
-
-                <ul className='list-disc pl-8'>
-                    <li>Be part of a team of residential care staff when on shift, ensuring that safe and 
-                    appropriate care practices are maintained at all times.</li>
-                    <li>Support the manager in all aspects of the operational management of the establishment.</li>
-                    <li>Ensure that the homes policies, procedures and principles are adhered to.</li>
-                    <li>Provide safe, warm and supportive environment to our young people.</li>
-                    <li>To be involved in the planning, organisation of the home.</li>
-                    <li>Maintain a regular system of recording in connection with each young person.</li>
-                    <li>To be involved in the implementation of care plans.</li>
-                    <li>Assist in the provision of reports when required.</li>
-                    <li>Ensure when on shift that care staff conduct themselves within the guide-lines of the 
-                    establishment.</li>
-                    <li>Co-ordinate the daily routine of the home.</li>
-                    <li>To promote and maintain high standards of cleanliness.</li>
-                    <li>Participate in the general activities of the establishment.</li>
-                    <li>Use any personal skills, you may have to maximise opportunity for each resident.</li>
-                    <li>Establish and develop outside contacts both individually and through various activities 
-                    developed within and outside of the establishment.</li>
-                    <li>Undertake delegated household duties.</li>
-                    <li>Attend regular supervision sessions as required.</li>
-                    <li>Attend team meetings and training sessions as required.</li>
-                    <li>Accept responsibility for such money as may be required in the carrying out of necessary duties.</li>
-                    <li>Undertake sleeping in duties as required.</li>
-                    <li>Comply with the policies and procedures of the establishment.</li>
-                    <li>Deal with telephone enquiries and undertake administrative duties as required e.g. 
-                    logbooks, daily logs, incident forms, handovers etc.</li>
-                    <li>Maintain case file records.</li>
-                    <li>Any other duties as may be reasonably requested by the manager.</li>
-                    <li>To foster and encourage, wherever appropriate contact between young people and their families.</li>
-                    <li>To maintain good liaison and co-operate with external agencies e.g. social workers, consultant staff.</li>
-                    <li>To develop a responsible attitude with residents with regard to the fabric, furnishings, equipment, supplies
-                    and services in/out of the establishment.</li>
-                    <li>To support young people in all domestic aspects of their personal space and the communal area 
-                    </li>of the home.
-                    <li>To demonstrate both sensitivity and appropriate assertiveness.</li>
-                    <li>To work in a pressured environment with groups of diverse young people, staff and other 
-                    professionals.</li>
-                    <li>To carry out the duties of the post in a mature and responsible manner, seeking and receiving
-                    support as necessary.</li>
-                    <li>To physically intervene if a young person’s behaviour is dangerous to others or themselves. 
-                    (When training has been completed).</li>
-                    <li>To participate in the construction and implementation of care plans on individual young persons placed.</li>
-
-                </ul>
-            </p>
-
+            
             <br/><span className=" font-bold">Responsibilities</span><br/>
             
             <p><br/>

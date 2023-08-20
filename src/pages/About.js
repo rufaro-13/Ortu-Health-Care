@@ -2,11 +2,12 @@ import React from 'react'
 import friends from "../images/multi-ethnic-disabled-people-community-with-pencils.jpg";
 import classroom from "../images/ortu-class-rooms.png.webp"
 import team from "../images/team_4540467.png"
+import { Link } from "react-router-dom";
 function About() {
   return (
     <div class="md:container md:mr-16 md:ml-16 pt-24">
-        <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
-            <p class="text-3xl"><span class="text-pinktheme ">Ortu Specialised Care and Home </span>
+        <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-12">
+            <p class="text-2xl"><span class="text-3xl text-pinktheme ">Ortu Specialised Care and Home </span>
             are here to make a lifelong and lasting difference to young people's lives.</p>
             <br/>
             
@@ -97,9 +98,12 @@ function About() {
                  See who is part of our Ortu team and what support we have available to our young people.
                 </p>
                 <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
-                <button type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 
+                <Link
+                  to="../our_team"
+                  className=" px-5 py-3 hover:bg-gray-200"
+                ><button type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 
                 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 
-                font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">View our team</button>
+                font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">View our team</button></Link>
                 </div>
             </div>
 
