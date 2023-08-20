@@ -1,6 +1,5 @@
 import React from 'react'
-import { IconContext } from "react-icons";
-import { FaCheck } from 'react-icons/fa6';
+
 import society from '../images/society.gif'
 
 function Team() {

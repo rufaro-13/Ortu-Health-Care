@@ -9,6 +9,8 @@ import Education from "./pages/Education";
 import Team from "./pages/Team"
 import Vacances from "./pages/Vacances"
 import ResidentialProvision from './pages/ResidentialProvision';
+import Policies from "./pages/Policies";
+import TermsAndConditions from "./pages/TermsAndConditions";
 
 function App() {
   return (
@@ -22,6 +24,9 @@ function App() {
         <Route  path='/vacances' element= {<Vacances/>}></Route>
         <Route path="/education_provision" element={<Education/>}/>
         <Route  path='/residential_provision' element= {<ResidentialProvision/>}></Route>
+        <Route  path='/policies' element= {<Policies/>}></Route>
+        <Route  path='/terms_and_conditions' element= {<TermsAndConditions/>}></Route>
+        
         </Route>
       </Routes>
     </BrowserRouter>

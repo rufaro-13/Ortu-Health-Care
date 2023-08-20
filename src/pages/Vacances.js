@@ -422,9 +422,9 @@ function Vacances() {
                 onClick={() => toggleAccordion(2)}
                 >
           <div className="flex justify-between items-center">
-            <span className="text-lg font-medium">Residential Support Worker – Young People</span>
+            <span className="text-lg font-medium">Deputy Manager-Children and Young People (CYP)</span>
             <span className="transform transition-transform">
-              {activeIndex === 2 ? (
+              {activeIndex === 3 ? (
                 <svg
                   className="w-6 h-6"
                   fill="none"
@@ -470,10 +470,9 @@ function Vacances() {
             <p>
 
                 <ul className='list-disc pl-8'>
-                    <li>To be responsible to the Registered Manager for the day to day running 
-                    of the home and for the delivery of the day to day care to young people.</li>
-                    <li>To ensure that yourself and the team are maintaining their therapeutic approach 
-                    and providing direct work with our young people.</li>
+                    <li>To support the Registered Manager in the day to day running of the children’s home, including deputising for them as and when required.</li>
+                    <li>To assist the Registered Manager in the management and development of the homeand support staff to drive the delivery of an excellent quality
+                       service for the people Ortu supports.</li>
                     <li>To operate within the legal parameters as described in the companies’ policies and procedures.</li>
                     <li>To give support in the business and social development of the service.</li>
                     <li>To share responsibility in securing a positive company image.</li>
