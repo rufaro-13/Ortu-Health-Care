@@ -58,7 +58,7 @@ function Contacts() {
         <center>
         <div class="max-w-fit sm:82 rounded-lg md:flex items-center sm:items-center sm:justify-center   mx-8 mt-1">
 
-            <div class="max-w-fit  sm:82 rounded-lg   sm:items-center sm:justify-center   ml-48 mt-8">
+            <div class="max-w-fit  sm:82 rounded-lg   sm:items-center sm:justify-center   md:ml-48 mt-8">
 
                 <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
                     <div class="  sm:items-center sm:justify-center  mx-5 mt-5 mb-5">
@@ -73,7 +73,7 @@ function Contacts() {
                   </div>
             </div>
 
-            <div class="max-w-fit  sm:82 rounded-lg  sm:items-center sm:justify-center   ml-48 mt-8">
+            <div class="max-w-fit  sm:82 rounded-lg  sm:items-center sm:justify-center  md:ml-48 mt-8">
 
                   <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
                     <a href="tel:0116 221 3539"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
@@ -93,7 +93,7 @@ function Contacts() {
 
         </center>
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
-            <span class="text-black text-3xl font-bold underline decoration-bluetheme ">Our online contact form<br/><br/></span>
+            <span class="text-black text-2xl md:text-3xl font-bold underline decoration-bluetheme ">Our online contact form<br/><br/></span>
                 
         </div>
 
@@ -106,12 +106,12 @@ function Contacts() {
         </div>
 
 
-        <div  class="md:w-full  sm:82 rounded-lg  sm:items-start    mx-4 mt-8">
-           <center> 
-            <form class=" " ref={form} onSubmit={sendEmail}>
+        <div  class="md:w-fit  sm:82 rounded-lg  sm:items-center justify-center  mx-4 mt-8">
+            
+            <form class=" md:px-60 " ref={form} onSubmit={sendEmail}>
                 
-                <div class="mb-6 ml-0">
-                    <label for="name" class="ml-0 block mb-2 text-sm font-medium text-gray-900 dark:text-black">Full Name <span class="text-red text-1xl italic font-normal">(Required)</span></label>
+                <div class="mb-6 ">
+                    <label for="name" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-black">Full Name <span class="text-red text-1xl italic font-normal">(Required)</span></label>
                     <input type="text" name="user_name" id="name" size="60" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block fit py-2.5 px-0 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="example: John Smith" required/>
                 </div>
                        
@@ -148,7 +148,7 @@ function Contacts() {
                     <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
                 
             </form>
-            </center>
+            
         </div>
 
 

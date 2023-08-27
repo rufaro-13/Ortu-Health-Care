@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
+import VacancesSection from '../components/VacancesSection';
+import applform from '../vacancies/Application Form (2).docx'
 
 function Vacances() {
 
@@ -22,7 +24,7 @@ function Vacances() {
 
         <div class=" sm:items-center sm:justify-center mx-8 mt-2 px-5">
             <p class="text-1xl">
-            At Ortu Home and School, we aim to be one dedicated team that works together to ensure our young people have the best possible outcomes and life experiences. We recognise that to achieve this we need the most committed people to join us.<br/><br/>
+            At Ortu Specialised Care, we aim to be one dedicated team that works together to ensure our young people have the best possible outcomes and life experiences. We recognise that to achieve this we need the most committed people to join us.<br/><br/>
 
             You will be part of a diverse and vibrant community of professionals who are outcomes focussed and operate with a strong team ethos.<br/><br/>
 
@@ -42,9 +44,38 @@ function Vacances() {
               <span className=" font-bold">4. Our DNA</span><br/>
               Ortu has a particular way of working with people and because it is so important to all our activities we call it our ethos. It is a combination of our values and the way that we put those values into actions that is unique to Ortu. Through our Promises and Value Base, the promotion of Great Interactions and Person Centred Approaches, we aim to support every person to live a life that makes sense to them, with a level and style of support of their choosing.
             </p>
+            <br/><br/>
+
+
+            <div class=" sm:items-center sm:justify-center md:mr-16 md:ml-16 mt-2 px-5">
+
+            <div class="text-center font-semibold py-4 text-3xl">
+                  <p class="relative inline-block pb-3">
+                  Vacances
+                      <span class="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
+                  </p>
+              </div>
+            <p class="text-1xl">
+            Please find below a search tool for finding current job vacancies we're recruiting for. 
+Please be aware that due to the nature of our work, for some services we cannot publish the exact physical location on our careers site. 
+These will be given a broader area location on the advert and will be displayed on the map at the centre of your search area with any regional roles that might be returning in your search as ''Regional and/or Non-Disclosable Location Vacancies'
+
+If you can't find what you're looking for at this time but would like to send info your details and they will be in touch. 
+ <a class="text-blue-700" href="mailto:info@ortuhome.com." >info@ortuhome.com.</a>
+            </p>
             <br/>
-            
-            <div className="border rounded mb-2">
+           </div>
+
+           <div class="">
+           
+            <VacancesSection/>
+            <div class='text-center py-4'>
+            <p  class="relative font-semibold inline-block pb-3">
+              Please download an <a href={applform} class="text-blue-700 hover:underline" download="Application form">application form</a> and send to info@ortuhome.com 
+            </p></div>
+           </div> 
+
+       {/*      <div className="border rounded mb-2">
                 <button
                 className="w-full text-left p-4 focus:outline-none"
                 onClick={() => toggleAccordion(0)}
@@ -669,7 +700,7 @@ function Vacances() {
             </p>
           </div>
         )}
-      </div>
+      </div> */}
 
 
         </div>

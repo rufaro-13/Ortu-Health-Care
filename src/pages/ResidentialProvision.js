@@ -216,21 +216,7 @@ function ResidentialProvision() {
                   </div>
           </div>
 
-          <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center   mx-8 mt-1">
-
-                <IconContext.Provider value={{ color: 'white', size: '50px', padding:'5px 2px' }}>
-                    <div class="  sm:items-center sm:justify-center bg-pinktheme mx-5 mt-5 mb-5">
-                       <FaUserGroup class="sm:items-center sm:justify-center mx-6 my-6"/>
-                    </div>
-                  </IconContext.Provider>
-                  <div class="  sm:items-center sm:justify-center  mx-6 mt-1">
-                    <p class=" text-1xl font-normal">
-                    <div><span class="text-black text-2xl font-bold">Therapeutic Community Model</span></div>
-                    A residential, participative approach with individual and group-based sessions. Highly structured days with opportunities 
-                    for community and personal chores, exercise, education and vocational time.
-                    </p>
-                  </div>
-          </div>
+          
 
           <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center bg-slate-200  mx-6 mt-8">
 

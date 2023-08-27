@@ -147,7 +147,7 @@ function Education() {
         optimism needed for our children to tackle any challenge ahead of them and embrace a brighter future.
       </p>
       <p className="">
-        Ortu House School is commitment to empowering our residents and for this, we offer relevant transition
+        Ortu Specialised Care is committed to empowering our residents and for this, we offer relevant transition
         pathways, and a multi-agency liaising service for our young people who are ready to move on from our services.
         We pride ourselves on providing transparency to all parties involved including a clear, proactive pathway programme
         so that the value and outcomes of our service are measurable at every stage of the journey.

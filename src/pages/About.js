@@ -1,8 +1,11 @@
 import React from 'react'
 import friends from "../images/multi-ethnic-disabled-people-community-with-pencils.jpg";
-import classroom from "../images/ortu-class-rooms.png.webp"
 import team from "../images/team_4540467.png"
 import { Link } from "react-router-dom";
+import { IconContext } from "react-icons";
+import { FaFilePdf } from 'react-icons/fa6';
+import file from '../policies/Statement of purpose.pdf'
+
 function About() {
   return (
     <div class="md:container md:mr-16 md:ml-16 pt-24">
@@ -25,7 +28,7 @@ function About() {
         </div><br/>
 
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
-            <span class="text-black text-2xl font-bold">Mission Statement</span>
+            <span class="text-black text-2xl font-bold">Statement of Purpose</span>
             
         </div>
         <div class=" sm:items-center sm:justify-center mx-6 mt-5">
@@ -33,16 +36,21 @@ function About() {
             Our mission is to enrich the lives of young people in our care by helping them to overcome 
             their difficulties, fulfill their potential and achieve the very best outcomes.<br/><br/>
 
-            To achieve these objectives we believe that young people require the following:<br/><br/>
-
-            <ul class="list-disc ml-6">
-                <li>A caring environment that is safe, stable, nurturing, and non-judgmental.</li>
-                <li>Carers who are understanding and compassionate.</li>
-                <li>A team that has informed approaches to the development and implementation of therapeutic care programmes to meet individual needs.</li>
-            </ul>
-
-
+            Feel free to constult the file below to know more about our statement of purpose.
             </p>
+            <center>
+            <div class="col-span-1 flex ml-8 mt-2 px-8 items-center bg-gray-200 w-fit h-fit">
+                <IconContext.Provider value={{ color: 'red', size: '68px', padding:'2px 2px' }}>
+                    
+                       <FaFilePdf class=" mx-1 my-1"/>
+                   
+                  </IconContext.Provider>
+                <p class="text-1xl">
+                
+                <a href={file} class="text-blue-700 hover:underline" download={"Statement of purpose"}> Statement of purpose</a>
+                </p>
+                
+              </div></center>
         </div>
 
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-8">
@@ -63,7 +71,7 @@ function About() {
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-8">
             <div class="md:w-1/2  sm:82 rounded-lg  sm:items-center sm:justify-center bg-slate-200  mx-4 mt-8">
 
-                <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
+            <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
                 <span class="text-black text-2xl font-bold underline decoration-pinktheme ">The Secure Base Model<br/><br/></span>
                 
                 </div>
@@ -77,11 +85,6 @@ function About() {
                 We strongly believe that Education and Social Care are intrinsically linked and we offer bespoke educational 
                 packages for our residents. Gaining recognised qualifications builds confidence and enhances our young people’s career choices and job prospects.
                 </p>
-
-            </div>
-
-            <div class=" mx-6 mt-5" >
-            <img src={classroom}class=" rounded-lg h-84 mr-3" alt=""/>
 
             </div>
         </div>
