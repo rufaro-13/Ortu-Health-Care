@@ -17,7 +17,7 @@ const NavigBar = () => {
             alt="ortu-health logo"
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Ortu Home
+            Ortu Specialised Home Ltd
           </span>
         </a>
         <div className="flex md:order-2">

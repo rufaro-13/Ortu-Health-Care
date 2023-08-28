@@ -34,7 +34,7 @@ function Education() {
     The National Curriculum is an important element of the school curriculum”.  The “School Curriculum” should have as its foundation secure Curriculum Aims.
     </p>
     <p className="mb-4 ">
-    In the past few years, Ortu House school has been working on developing its own “School Curriculum”, establishing clear aims which in turn drive the teaching and learning. So whilst the National Curriculum may determine “What is to be taught” the school curriculum increasingly determines “How it is taught”
+    In the past few years, Ortu Specialsed Home has been working on developing its own “School Curriculum”, establishing clear aims which in turn drive the teaching and learning. So whilst the National Curriculum may determine “What is to be taught” the school curriculum increasingly determines “How it is taught”
     </p>
     <p className="mb-4 ">
     The school’s curriculum planning seeks to create themes that will deliver the school’s aims alongside most aspects of the National Curriculum and Examination subjects.
@@ -147,7 +147,7 @@ function Education() {
         optimism needed for our children to tackle any challenge ahead of them and embrace a brighter future.
       </p>
       <p className="">
-        Ortu Specialised Care is committed to empowering our residents and for this, we offer relevant transition
+        Ortu Specialised Home is committed to empowering our residents and for this, we offer relevant transition
         pathways, and a multi-agency liaising service for our young people who are ready to move on from our services.
         We pride ourselves on providing transparency to all parties involved including a clear, proactive pathway programme
         so that the value and outcomes of our service are measurable at every stage of the journey.

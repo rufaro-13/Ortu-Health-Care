@@ -9,18 +9,16 @@ import file from '../policies/Statement of purpose.pdf'
 function About() {
   return (
     <div class="md:container md:mr-16 md:ml-16 pt-24">
-        <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-12">
-            <p class="text-2xl"><span class="text-3xl text-pinktheme ">Ortu Specialised Care and Home </span>
-            are here to make a lifelong and lasting difference to young people's lives.</p>
+        <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-14">
+        <marquee class="font-cursive text-3xl font-semibold pt-8 text-purple-600"> <p class="text-2xl"><span class="text-3xl text-pinktheme ">OSH </span>
+            are here to make a lifelong and lasting difference to young people's lives.</p></marquee>
             <br/>
             
         </div>
 
         <div class=" sm:items-center sm:justify-center mx-6 mt-5">
             <p>
-            Ortu Specialised Care and Home provides residential care and education to young people.<br/><br/>
-
-            We provide a place of <span class="text-pinktheme ">safety</span>, <span class="text-pinktheme ">nurture</span>, and <span class="text-pinktheme ">wellbeing</span> within a trusted environment. 
+            OSH provides residential care and education to young people. We provide a place of <span class="text-pinktheme ">safety</span>, <span class="text-pinktheme ">nurture</span>, and <span class="text-pinktheme ">wellbeing</span> within a trusted environment. 
             We have an extensive large team of professionals and practitioners that aim to meet the individual needs of each 
             young person, 
             enabling them to flourish and recognise their potential, with the safety and stabilisation of a family environment.
@@ -39,7 +37,7 @@ function About() {
             Feel free to constult the file below to know more about our statement of purpose.
             </p>
             <center>
-            <div class="col-span-1 flex ml-8 mt-2 px-8 items-center bg-gray-200 w-fit h-fit">
+            <div class="col-span-1 flex ml-8 mt-2 px-8 items-center  w-fit h-fit">
                 <IconContext.Provider value={{ color: 'red', size: '68px', padding:'2px 2px' }}>
                     
                        <FaFilePdf class=" mx-1 my-1"/>
@@ -92,12 +90,12 @@ function About() {
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-8">
             <div class=" sm:82 rounded-lg  sm:items-center sm:justify-center bg-slate-200  mx-4 mt-8">
 
-                <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
-                <span class="text-black text-5xl font-bold underline decoration-pinktheme mt-2">The Ortu Team <br/><br/></span>
-                <img src={team}class="h-12 ml-2 " alt=""/>
+                <div class="flex sm:flex sm:items-center sm:justify-center mx-6 mt-5">
+                <span class="text-black lg:text-5xl text-1xl font-bold underline decoration-pinktheme mt-2">The OSH Team <br/><br/></span>
+                <img src={team}class="lg:h-12 h-8 lg:ml-2 mt-2 " alt=""/>
                 </div>
 
-                <p class=" text-3xl font-normal">
+                <p class=" lg:text-3xl text-1xl font-normal">
                  See who is part of our Ortu team and what support we have available to our young people.
                 </p>
                 <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">

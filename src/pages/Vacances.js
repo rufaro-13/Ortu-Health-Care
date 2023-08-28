@@ -24,7 +24,7 @@ function Vacances() {
 
         <div class=" sm:items-center sm:justify-center mx-8 mt-2 px-5">
             <p class="text-1xl">
-            At Ortu Specialised Care, we aim to be one dedicated team that works together to ensure our young people have the best possible outcomes and life experiences. We recognise that to achieve this we need the most committed people to join us.<br/><br/>
+            At Ortu Specialised Home, we aim to be one dedicated team that works together to ensure our young people have the best possible outcomes and life experiences. We recognise that to achieve this we need the most committed people to join us.<br/><br/>
 
             You will be part of a diverse and vibrant community of professionals who are outcomes focussed and operate with a strong team ethos.<br/><br/>
 

@@ -60,7 +60,7 @@ function Footer() {
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
-            <span class="block text-sm text-white sm:text-center dark:text-white">© 2023 <a href="https://flowbite.com/" class="hover:underline">Ortu Specialised Home™</a>. All Rights Reserved.</span>
+            <span class="block text-sm text-white sm:text-center dark:text-white">© 2023 <a href="https://flowbite.com/" class="hover:underline">Ortu Specialised Home Ltd™</a>. All Rights Reserved.</span>
             <span class="mx-12 block text-sm text-white sm:text-center dark:text-white">Developed by <a href="mailto:rufarochiuta@gmail.com" class="hover:underline">Chiuta</a> & <a href="mailto:charmainemangorima@gmail.com" class="hover:underline">Mangorima</a></span>
         </div>
     </div>

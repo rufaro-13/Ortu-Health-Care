@@ -57,6 +57,47 @@ function ResidentialProvision() {
         <div class=" sm:items-center sm:justify-center mx-6 mt-10">
             
 
+            <div class="sm:flex sm:items-center  mx-6 mt-5">
+            <span class="text-black text-3xl font-bold underline decoration-pinktheme ">Specialist Services and Care for Children (under 16)<br/><br/></span>
+            
+            </div>
+
+            <p class=" text-1xl font-normal mx-6 px-4">
+              <ul class="list-disc ml-6">
+                <li>Ortu specialist Home residential care services have a reputation for providing outstanding 
+                  levels of care, helping children and young people with a range of complex needs, including 
+                  D/deaf and hearing loss, victims of child sexual abuse and exploitation and CAMHS, to stabilise 
+                  their lives, develop their potential and progress to more independent living.<br/> Our environments 
+                  provide everyone in our care a home to feel safe in and a chance to develop their lives with optimism and 
+                  enthusiasm. By providing a complete continuity of care through positive therapeutic and behavioural approaches, 
+                  Ortu provides extensive support for children and young adults to achieve their personal best. We aim to reduce 
+                  1:1 levels of support by providing personalised care and pathways leading to supported living.<br/>
+</li><br/>
+                <li>Ortu Specialist Home offers residential placements to children aged 12-18 who are or have experienced or are
+                   experiencing significant mental health needs. Our services are registered with Ofsted with care, clinical and 
+                   education offerings. Our aim is to work collaboratively with all our teams to ensure a child focussed plan in 
+                   order to support the recovery and integration back into every day life following a period of ill-health due to 
+                   mental wellbeing and self injury (Self Harm) behaviours. Our vision at our specialist mental health services is 
+                   to provide the highest possible level of care to the young people that reside at the home and to promote a relaxed 
+                   and nurturing environment, at the same time encouraging the young people to develop the academic, practical and 
+                   social skills needed to thrive and develop from a young person into an adult. </li><br/>
+                
+                <li>We will strive to provide an environment that offers the optimum experiences for the young people to recover, and return as many as possible home or with the 
+                   ability to live in a community setting. Our objective is to support young people via individual care packages to achieve 
+                   the best possible outcomes in order to achieve their full potential, keeping them safe and free from harm. Ortu is committed 
+                   to operate within strict legal and ethical guidelines, nurture employees and introduce measures to promote job satisfaction, 
+                   at the same time ensuring that all the staff provide safe care that is young person focused. Our staff build on the 
+                   relationships made with the young people and each care plan is adapted to the individual needs of each young person 
+                   to ensure planned outcomes are achieved.</li>
+              </ul>
+            </p>
+
+    </div>
+
+
+        <div class=" sm:items-center sm:justify-center mx-6 mt-10">
+            
+
                 <div class="sm:flex sm:items-center  mx-6 mt-5">
                 <span class="text-black text-3xl font-bold underline decoration-pinktheme ">Residential provision 16+ - provision<br/><br/></span>
                 
@@ -103,7 +144,7 @@ function ResidentialProvision() {
                     <li>Music</li>
                   </ul>
                 
-                </p>
+                </p><br/>
 
                 <p class=" text-1xl font-normal  ">
                   Career Zone qualifications are suitable for those wishing to go from school directly into employment or apprenticeships but are also accepted 

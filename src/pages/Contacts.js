@@ -38,16 +38,16 @@ function Contacts() {
   };
     
     return (
-    <div class="md:container md:mr-16 md:ml-16 pt-32">
+    <div class="container mx-8 md:mr-16 md:ml-16 pt-32">
 
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
-            <span class="text-black text-3xl font-bold underline decoration-bluetheme ">Contacting Ortu Specialised Care and Home<br/><br/></span>
+            <span class="text-black text-2xl md:text-3xl font-bold underline decoration-bluetheme ">Contacting Ortu Specialised Home<br/><br/></span>
                 
         </div>
 
         <div class="sm:flex sm:items-center sm:justify-center mx-8 mt-2 px-5">
             <p class="text-1xl">
-                If you wish to contact Ortu Home & School please use the form on this page or send an email to the email address below.<br/><br/>
+                If you wish to contact OSH please use the form on this page or send an email to the email address below.<br/><br/>
 
                 If it is urgent or you would prefer to talk to a person please use the telephone number listed below.
             </p>
