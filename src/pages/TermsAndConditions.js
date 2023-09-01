@@ -9,7 +9,7 @@ function TermsAndConditions() {
     <div class="md:container md:mr-16 md:ml-16 pt-2">
         <div class="sm:flex sm:items-center sm:justify-center mx-12 mt-0">
             <div>
-                <div class="text-center font-semibold py-4 text-3xl">
+                <div class="text-center font-semibold py-4 text-2xl md:text-3xl">
                     <p class="relative inline-block pb-3">
                          Purpose of our terms and conditions statement
                         <span class="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>

@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 import {FaBookOpen, FaHandshakeAngle, FaSchool, FaStreetView} from 'react-icons/fa6'
 function ResidentialProvision() {
   return (
-    <div class="md:container md:mr-16 md:ml-16 pt-2">
+    <div class="md:container mx-4 md:mr-16 md:ml-16 pt-2">
         
-         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-0">
-            <div class="md:w-1/2  sm:82 rounded-lg  sm:items-center sm:justify-center   mx-4 mt-8">
+         <div class="md:flex sm:items-center sm:justify-center md:mx-6 mx-2 mt-0">
+            <div class="md:w-1/2  sm:82 rounded-lg  sm:items-center sm:justify-center mx-1  md:mx-4 mt-8">
 
-                <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
-                <span class="text-black text-3xl font-bold underline decoration-pinktheme ">Our Home Residential Care Provision<br/><br/></span>
+                <div class="sm:flex sm:items-center sm:justify-center md:mx-6 mx-1 mt-5">
+                <span class="text-black text-2xl md:text-3xl font-bold underline decoration-pinktheme ">Our Home Residential Care Provision<br/><br/></span>
                 
                 </div>
 
@@ -31,7 +31,7 @@ function ResidentialProvision() {
 
             </div>
 
-            <div class="md:w-1/2 mx-6 mt-5" >
+            <div class="md:w-1/2 w-full md:mx-6 mx-1 mt-5" >
              <img src={younggirl}class=" rounded-lg h-84 mr-3" alt=""/> 
 
             </div>
@@ -40,13 +40,13 @@ function ResidentialProvision() {
         <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center bg-slate-100  mx-6 mt-8">
 
                 <IconContext.Provider value={{ color: 'white', size: '50px', padding:'5px 2px' }}>
-                    <div class="  sm:items-center sm:justify-center bg-pinktheme mx-5 mt-5 mb-5">
-                       <FaBookOpen class="sm:items-center sm:justify-center mx-6 my-6"/>
+                    <div class=" max-w-fit sm:items-center sm:justify-center bg-pinktheme mx-5 mt-5 mb-5">
+                       <FaBookOpen class="sm:items-center sm:justify-center  mx-3 md:mx-6 my-6"/>
                     </div>
                   </IconContext.Provider>
                   <div class="  sm:items-center sm:justify-center  mx-6 mt-5">
-                    <p class=" text-2xl font-semibold">
-                    <div><span class="text-black text-1xl font-bold">Admissions Policy</span></div>
+                    <p class=" text-2xl text-base font-semibold">
+                    <div><span class="text-black md:text-1xl text-base font-bold">Admissions Policy</span></div>
                         Download a copy of our admissions policy <Link
                 to="/"className="block py-2 pl-3 pr-4 underline text-pinktheme rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-pinktheme dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >here.</Link>
@@ -54,16 +54,16 @@ function ResidentialProvision() {
                   </div>
         </div>
 
-        <div class=" sm:items-center sm:justify-center mx-6 mt-10">
+        <div class=" sm:items-center sm:justify-center mx-1 md:mx-6 mt-10">
             
 
-            <div class="sm:flex sm:items-center  mx-6 mt-5">
-            <span class="text-black text-3xl font-bold underline decoration-pinktheme ">Specialist Services and Care for Children (under 16)<br/><br/></span>
+            <div class="sm:flex sm:items-center mx-1 md:mx-6 mt-5">
+            <span class="text-black text-2xl lg:text-3xl font-bold underline decoration-pinktheme ">Specialist Services and Care for Children (under 16)<br/><br/></span>
             
             </div>
 
-            <p class=" text-1xl font-normal mx-6 px-4">
-              <ul class="list-disc ml-6">
+            <p class="text-base md:text-1xl font-normal mx-1 md:mx-6 px-4">
+              <ul class="list-disc ml-2 md:ml-6">
                 <li>Ortu specialist Home residential care services have a reputation for providing outstanding 
                   levels of care, helping children and young people with a range of complex needs, including 
                   D/deaf and hearing loss, victims of child sexual abuse and exploitation and CAMHS, to stabilise 
@@ -98,13 +98,13 @@ function ResidentialProvision() {
         <div class=" sm:items-center sm:justify-center mx-6 mt-10">
             
 
-                <div class="sm:flex sm:items-center  mx-6 mt-5">
-                <span class="text-black text-3xl font-bold underline decoration-pinktheme ">Residential provision 16+ - provision<br/><br/></span>
+                <div class="sm:flex sm:items-center mx-1 md:mx-6 mt-5">
+                <span class="text-black text-2xl lg:text-3xl font-bold underline decoration-pinktheme ">Residential provision 16+ - provision<br/><br/></span>
                 
                 </div>
 
-                <p class=" text-1xl font-normal mx-6 px-4">
-                  <ul class="list-disc ml-6">
+                <p class=" text-base md:text-1xl font-normal mx-1 md:mx-6 px-4">
+                  <ul class="list-disc ml-2 md:ml-6">
                     <li>A tailored and bespoke independent living programme.</li>
                     <li>Accommodation with 24-hour support.</li>
                     <li>Bespoke care packages and support hours are dependent on individual needs.</li>
@@ -123,18 +123,18 @@ function ResidentialProvision() {
         </div>
         
 
-        <div class=" sm:items-center sm:justify-center mx-6 mt-10 pr-8">
+        <div class=" sm:items-center sm:justify-center mx-1 md:mx-6 mt-10 md:pr-8">
             
 
-                <div class="sm:flex sm:items-center  mx-6 mt-5">
-                <span class="text-black text-3xl font-bold underline decoration-pinktheme ">Careers vocational<br/><br/></span>
+                <div class="sm:flex sm:items-center  mx-1 md:mx-6 mt-5">
+                <span class="text-black text-2xl lg:text-3xl font-bold underline decoration-pinktheme ">Careers vocational<br/><br/></span>
                 
                 </div>
 
                 <p class=" text-1xl font-normal ">
                 Offers an exciting vocational curriculum including BTEC (Edexcel/Pearson), ASDAN and ABC qualifications.</p>
-                <p class=" text-1xl font-normal px-4">
-                <ul class="list-disc mx-6">
+                <p class=" text-base md:text-1xl font-normal mx-1 md:mx-6 ">
+                  <ul class="list-disc ml-2 md:ml-6">
                     <li>Engineering</li>
                     <li>Sport</li>
                     <li>Youth Work</li>
@@ -187,16 +187,16 @@ function ResidentialProvision() {
                   the training and development, the amount of time spent learning and training can vary depending on the employer
                    and the type of apprenticeship. The most common types of study formats:<br/>
 
-                  <p class=" text-1xl font-normal px-4">
-                  <ul class="list-disc px-4 ">
+                   <p class=" text-base md:text-1xl font-normal mx-1 md:mx-6 ">
+                  <ul class="list-disc ml-2 md:ml-6">
                    <li> Day release to attend school</li>
                    <li>Block release at school</li>
                   </ul>
                    
                   </p>
                   <br/>The levels are:<br/>
-                  <p class=" text-1xl font-normal px-4">
-                  <ul class="list-disc px-4 ">
+                  <p class=" text-base md:text-1xl font-normal mx-1 md:mx-6 ">
+                  <ul class="list-disc ml-2 md:ml-6">
                     <li>Intermediate apprenticeship Level 2 – equal to five GCSEs at grade 4/C</li>
                     <li>Advanced apprenticeship Level 3 – equal to A-levels</li>
                     <li>Independence</li>
@@ -206,20 +206,20 @@ function ResidentialProvision() {
 
         </div>
 
-        <div class=" sm:items-center sm:justify-center mx-6 mt-10 pr-8">    
-          <div class="sm:flex sm:items-center  mx-6 mt-5">
-            <span class="text-black text-3xl font-bold underline decoration-pinktheme ">Our Care Programme<br/><br/></span>
+        <div class=" sm:items-center sm:justify-center mx-1 md:mx-6 mt-10 md:pr-8">    
+          <div class="sm:flex sm:items-center mx-1 md:mx-6 mt-5">
+            <span class="text-black text-2xl md:text-3xl font-bold underline decoration-pinktheme ">Our Care Programme<br/><br/></span>
           
           </div>
 
-          <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center   mx-8 mt-2">
+          <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center mx-1  md:mx-8 mt-2">
 
                 <IconContext.Provider value={{ color: 'white', size: '50px', padding:'5px 2px' }}>
-                    <div class="  sm:items-center sm:justify-center bg-pinktheme mx-5 mt-5 mb-5">
-                       <FaSchool class="sm:items-center sm:justify-center mx-6 my-6"/>
+                    <div class="max-w-fit sm:items-center sm:justify-center bg-pinktheme mx-5 mt-5 mb-5">
+                       <FaSchool class="sm:items-center sm:justify-center  mx-3 md:mx-6 my-6"/>
                     </div>
                   </IconContext.Provider>
-                  <div class="  sm:items-center sm:justify-center  mx-6 mt-1">
+                  <div class="  sm:items-center sm:justify-center mx-1 md:mx-6 mt-1">
                     <p class=" text-1xl font-normal">
                     <div><span class="text-black text-2xl font-bold">Secure Based Model</span></div>
                     Sensitivity - Managing Feelings,  Acceptance - Self-Esteem,  Co-operation - Feeling Effective, 
@@ -227,14 +227,14 @@ function ResidentialProvision() {
                     </p>
                   </div>
           </div>
-          <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center   mx-8 mt-1">
+          <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center mx-1  md:mx-8 mt-1">
 
                 <IconContext.Provider value={{ color: 'white', size: '50px', padding:'5px 2px' }}>
-                    <div class="  sm:items-center sm:justify-center bg-pinktheme mx-5 mt-5 mb-5">
-                       <FaHandshakeAngle class="sm:items-center sm:justify-center mx-6 my-6"/>
+                    <div class=" max-w-fit sm:items-center sm:justify-center bg-pinktheme mx-5 mt-5 mb-5">
+                       <FaHandshakeAngle class="sm:items-center sm:justify-center  mx-3 md:mx-6 my-6"/>
                     </div>
                   </IconContext.Provider>
-                  <div class="  sm:items-center sm:justify-center  mx-6 mt-1">
+                  <div class="  sm:items-center sm:justify-center mx-1 md:mx-6 mt-1">
                     <p class=" text-1xl font-normal">
                     <div><span class="text-black text-2xl font-bold">Trauma Informed Practice</span></div>
                     Safety-feeling physically and psychologically safe.
@@ -242,14 +242,14 @@ function ResidentialProvision() {
                   </div>
           </div>
 
-          <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center  mx-8 mt-1">
+          <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center mx-1 md:mx-8 mt-1">
 
                 <IconContext.Provider value={{ color: 'white', size: '50px', padding:'5px 2px' }}>
-                    <div class="  sm:items-center sm:justify-center bg-pinktheme mx-5 mt-5 mb-5">
-                       <FaStreetView class="sm:items-center sm:justify-center mx-6 my-6"/>
+                    <div class=" max-w-fit sm:items-center sm:justify-center bg-pinktheme mx-5 mt-5 mb-5">
+                       <FaStreetView class="sm:items-center sm:justify-center mx-1 md:mx-6 my-6"/>
                     </div>
                   </IconContext.Provider>
-                  <div class="  sm:items-center sm:justify-center  mx-6 mt-1">
+                  <div class=" max-w-fit sm:items-center sm:justify-center mx-1 md:mx-6 mt-1">
                     <p class=" text-1xl font-normal">
                     <div><span class="text-black text-2xl font-bold">PACE</span></div>
                     Playfulness, Acceptance, Curiosity, Empathy.
@@ -259,10 +259,10 @@ function ResidentialProvision() {
 
           
 
-          <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center bg-slate-200  mx-6 mt-8">
+          <div class="max-w-fit sm:82 rounded-lg sm:flex sm:items-center sm:justify-center bg-slate-200 mx-1 md:mx-6 mt-8">
 
               
-                <p class=" text-2xl font-light font-serif">
+                <p class="text-base md:text-2xl font-light font-serif">
                 At Ortu, we provide a nurturing pathway to overcome adversity. We believe that the heart of this starts with 
                 relationships, in order to build growth, trust and development in all the young people we are fortunate enough
                  to care for and educate.

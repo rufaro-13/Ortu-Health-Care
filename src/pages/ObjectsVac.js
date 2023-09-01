@@ -4,7 +4,6 @@ import dchm from '../vacancies/Deputy Care Home Manager.pdf'
 import responsible from '../vacancies/Responsible Individual.pdf'
 import deputy from '../vacancies/DEPUTY MANAGER JOB SPEC.pdf'
 
-import React from 'react'
 
 export const polfiles = [
     {id: 1,

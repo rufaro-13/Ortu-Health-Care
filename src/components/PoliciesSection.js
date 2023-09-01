@@ -2,7 +2,6 @@ import React from 'react'
 import { IconContext } from "react-icons";
 import { FaFilePdf } from 'react-icons/fa6';
 import {polfiles} from '../pages/Objects'
-import {Link} from "react-router-dom"
 function PoliciesSection() {
 
   return (

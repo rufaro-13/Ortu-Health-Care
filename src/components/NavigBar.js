@@ -13,7 +13,7 @@ export default function NavigBar() {
       <Navbar.Brand href="/">
         <img
           alt="Flowbite React Logo"
-          className="mr-3 h-6 sm:h-9 "
+          className="mr-3 h-8 md:h-16 sm:h-9 "
           src={logo}
         />
         <span className="self-center whitespace-nowrap text-white text-xl font-semibold dark:text-white">

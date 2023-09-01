@@ -96,37 +96,37 @@ function Education() {
     <div class="sm:flex sm:items-center sm:justify-center mx-12">
       {/* special services */}
     <div>
-    <div class="text-center font-semibold py-4 text-3xl">
+    <div class="text-center font-bold py-4 text-1xl md:text-3xl">
           <p class="relative inline-block pb-3">
           Special services we offer
               <span class="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
           </p>
     </div>
-    <p className="mb-4 text-xl">
+    <p className="mb-4 md:text-xl text-base">
     We provide the below services in specialist residential homes, schools and colleges with specialist staff to
      support each setting. We offer a differentiated and integrated education and care model focusing on each young 
      person’s needs.
     </p>
-    <div className="flex lg:pr-96 sm:pr-16 pt-4">
-      <img src={learningdisabilities} alt="learning disabilities icon" className="w-24 h-24 text-bluetheme"></img>
-      <p className='pl-4'>
+    <div className="flex lg:pr-96 pl-2 sm:pr-16 pt-4">
+      <img src={learningdisabilities} alt="learning disabilities icon" className="md:w-24 w-16 md:h-24 h-16 text-bluetheme"></img>
+      <p className='md:pl-4 pl-2'>
         <span className='pb-8 font-bold text-xl'>Learning Disabilities</span> <br/>
         We support young people and young people with conditions such as Autism Spectrum Disorder, 
         Asperger Syndrome and other neurodevelopmental conditions, learning and communication difficulties.
       </p>
 </div><br/>
 
-<div className="flex lg:pr-96 sm:pr-16">
-      <img src={socialsupport} alt="social support icon" className="w-24 h-24"></img>
-      <p className='pl-4'>
+<div className="flex lg:pr-96 pl-2 sm:pr-16">
+      <img src={socialsupport} alt="social support icon" className="md:w-24 w-16 md:h-24 h-16 text-bluetheme"></img>
+      <p className='md:pl-4 pl-2'>
         <span className='pb-8 font-bold text-xl'>Social, Emotional Mental Health (SEMH)</span> <br/>
         We provide education and residential care to young people with a range of complex conditions arising from 
         challenging social circumstances or traumatic experiences such as abuse, neglect or exploitation.
       </p>
 </div><br/>
-<div className="flex lg:pr-96 sm:pr-16">
-      <img src={mentalhealth} alt="mental health icon" className="w-24 h-24"></img>
-      <p className='pl-4'>
+<div className="flex lg:pr-96  pl-2 sm:pr-16">
+      <img src={mentalhealth} alt="mental health icon" className="md:w-24 w-16 md:h-24 h-16 text-bluetheme"></img>
+      <p className='md:pl-4 pl-2'>
         <span className='pb-8 font-bold text-xl'>Mental Health</span> <br/>
         Helping and empowering young people with mental health needs and challenging behaviours to function in the
          community without ongoing support.
@@ -137,7 +137,7 @@ function Education() {
 <div className="min-h-[90%]  flex items-center justify-center pt-4 pb-6">
   <div className="flex flex-col w-full lg:w-[90%] overflow-hidden lg:flex-row">
     <div className="bg-gradient-to-br from-purple-600 to-purpletheme rounded-lg p-6 text-white lg:w-1/2">
-      <h1 className="text-3xl font-semibold mb-4">Care Pathway</h1>
+      <h1 className="md:text-3xl text-2xl font-semibold mb-4">Care Pathway</h1>
       <p className="mb-4">
         Through passion and experience we help to develop our young people’s academic and personal skills,
         using state-of-the-art environments and a modern person-centred approach.
@@ -161,7 +161,7 @@ function Education() {
 {/* end care pathway */}
 
 {/* Independence Skills Routes */}
-<div class="text-center font-semibold pb-4 pt-0 text-3xl">
+<div class="text-center font-semibold pb-4 pt-0 md:text-3xl text-2xl">
     <p class="relative inline-block pb-3">
         Independence Skills Routes
         <span class="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
@@ -170,14 +170,14 @@ function Education() {
 <IndependenceSkillsRoutes/>
 
 {/* Residential provision 16+ - provision */}
-<div class="text-center font-semibold py-4 text-3xl">
+<div class="md:text-center font-semibold py-4 md:text-3xl text-2xl">
     <p class="relative inline-block pb-3">
     Residential provision 16+ - provision
         <span class="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
     </p>
 </div>
 
-  <ul className='list-disc pl-8'>
+  <ul className='list-disc pl-1 md:pl-8'>
     <li>A tailored and bespoke independent living programme.</li>
     <li>Accommodation with 24-hour support.</li>
     <li>Bespoke care packages and support hours are dependent on individual needs.</li>
@@ -194,7 +194,7 @@ function Education() {
 
 
 {/* SEMH/Education/Initial assessment provision */}
-<div class="text-center font-semibold py-4 text-3xl">
+<div class="md:text-center font-semibold py-4 md:text-3xl text-2xl">
     <p class="relative inline-block pb-3">
     SEMH/Education/Initial assessment provision
         <span class="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
@@ -204,7 +204,7 @@ function Education() {
 <InitialAssessment/>
 
 {/* KS2 TO KS4 - Intention and implementation of the curriculum */}
-<div class="text-center font-semibold py-4 text-3xl">
+<div class="md:text-center font-semibold py-4 md:text-3xl text-2xl">
     <p class="relative inline-block pb-3">
     KS2 TO KS4 - Intention and implementation of the curriculum
         <span class="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>

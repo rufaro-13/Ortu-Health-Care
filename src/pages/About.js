@@ -70,7 +70,7 @@ function About() {
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-8">
             <div class="md:w-1/2  sm:82 rounded-lg  sm:items-center sm:justify-center bg-slate-200  mx-4 mt-8">
 
-            <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
+            <div class="sm:flex sm:items-center sm:justify-center  mx-6 mt-5">
                 <span class="text-black text-2xl font-bold underline decoration-pinktheme ">The Secure Base Model<br/><br/></span>
                 
                 </div>
@@ -81,8 +81,8 @@ function About() {
                 Model alongside other life-enhancing experiences that contribute to building self-esteem.<br/><br/>
                 We understand how vital interactions and relationship building are to young people and how this enables them
                  to gain and make growth socially amongst the community and peer groups.<br/><br/>
-                We strongly believe that Education and Social Care are intrinsically linked and we offer bespoke educational 
-                packages for our residents. Gaining recognised qualifications builds confidence and enhances our young people’s career choices and job prospects.
+                 Ortu specialised home is founded with the belief that security, love, empowerment 
+                 and understanding. A child can grow, develop and become a contributing to society.
                 </p>
 
             </div>

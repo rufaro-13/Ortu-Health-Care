@@ -16,35 +16,35 @@ function Footer() {
 
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="/" rel="noreferrer" class="flex items-center mb-4 sm:mb-0">
-                    <img src={logo}class="h-24 mr-3" alt="Flowbite Logo" />
+                    <img src={logo}class="h-16 md:h-24 mr-3" alt="Ortu Logo" />
                 </a>
 
                 <a href="https://careskillsacademy.co.uk/" rel="noreferrer" class="flex items-center mb-4 sm:mb-0">
-                    <img src={careskills}class="h-12 mr-3" alt="Flowbite Logo" />     
+                    <img src={careskills}class="md:h-12 h-9 mr-3" alt="careskillsacademy Logo" />     
                 </a>
 
                 <a href="/" rel="noreferrer" class="flex items-center mb-4 sm:mb-0">
-                    <img src={nurture}class="h-12 mr-3" alt="Flowbite Logo" />   
+                    <img src={nurture}class="md:h-12 h-9 mr-3" alt="Flowbite Logo" />   
                 </a>
 
                 <a href="https://www.elsanetwork.org/" rel="noreferrer" class="flex items-center mb-4 sm:mb-0">
-                    <img src={elsa}class="h-12 mr-3" alt="Flowbite Logo" />    
+                    <img src={elsa}class="md:h-12 h-9 mr-3" alt="elsanetwork Logo" />    
                 </a>
 
                     <a href="https://www.socialcarenetwork.com/" rel="noreferrer" class="flex items-center mb-4 sm:mb-0">
-                    <img src={social}class="h-12 mr-3" alt="Flowbite Logo" />   
+                    <img src={social}class="h-12 mr-3" alt="socialcarenetwork Logo" />   
                 </a>
 
                 <a href="https://www.asdan.org.uk/" rel="noreferrer" class="flex items-center mb-4 sm:mb-0">
-                    <img src={asdan}class="h-12 mr-3" alt="Flowbite Logo" />   
+                    <img src={asdan}class="md:h-12 h-9 mr-3" alt="asdan.org.uk Logo" />   
                 </a>
 
             </div>
 
             <div class="sm:flex sm:items-center sm:justify-center mx-12 mt-5">
-                <ul class=" mt-8 mx-8 flex flex-wrap items-center mb-6 text-2xl font-medium text-gray-500 sm:mb-0 dark:text-white">
+                <ul class=" mt-8 mx-8 flex flex-wrap items-center mb-6 text-lg md:text-2xl font-medium text-gray-500 sm:mb-0 dark:text-white">
                     <li>
-                        <a href="/about" rel="noreferrer" class="mr-4 hover:underline md:mr-6 font-large">About</a>
+                        <a href="/about" rel="noreferrer" class="mr-4 hover:underline md:mr-6 md:font-large">About</a>
                     </li>
                     <li>
                         <a href="/policies"  rel="noreferrer"class="mr-4 hover:underline md:mr-6 font-large">Privacy Policy</a>

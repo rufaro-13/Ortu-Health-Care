@@ -33,19 +33,15 @@ function Home() {
         different experiences that our young people bring with them.
       </p>
       <p className="mb-4">
-        Our care homes have 3 bedrooms, whereby we use 2 for long-term residents and 1 as a
-        temporary need, as a route to fostering for a young person.
+        Our care homes vary between solo placement to 4 bedded homes.
+
       </p>
       <p className="mb-4">
-        Oadby is a town in the borough of Oadby and Wigston in the county of Leicestershire and
-        has a thriving high street at the center of a busy and friendly community. Oadby is
-        located 10 minutes outside of Leicester City Centre but has all the amenities needed on
-        a daily basis.
+      All of our properties are commissioned with our children in mind where the main focus is local amenities, 
+      an interest which will create community links.
+
       </p>
-      <p>
-        It has easy public transport routes into the city and is a short drive away from the
-        Leicestershire countryside, providing flexibility and a choice of lifestyle.
-      </p>
+      
       <br/>
       <Link to="/residential_provision"><button type="button" class="border border-white rounded p-3 font-bold hover:bg-bluetheme">Learn more</button></Link>
     </div>

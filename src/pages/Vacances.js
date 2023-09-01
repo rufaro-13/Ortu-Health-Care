@@ -18,7 +18,7 @@ function Vacances() {
     <div class="md:container md:mr-16 md:ml-16 pt-2">
 
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-0">
-            <span class="text-black text-3xl font-bold">Find your perfect job with one of our vacancies</span>
+            <span class="text-black md:text-3xl text-2xl font-bold">Find your perfect job with one of our vacancies</span>
             
         </div>
 
