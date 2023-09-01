@@ -1,11 +1,11 @@
 import React from 'react'
-import { useState } from 'react';
+//import { useState } from 'react';
 import VacancesSection from '../components/VacancesSection';
 import applform from '../vacancies/Application Form (2).docx'
 
 function Vacances() {
 
-    const [activeIndex, setActiveIndex] = useState(null);
+/*     const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAccordion = (index) => {
     if (index === activeIndex) {
@@ -13,11 +13,11 @@ function Vacances() {
     } else {
       setActiveIndex(index);
     }
-  };
+  }; */
   return (
-    <div class="md:container md:mr-16 md:ml-16 pt-24">
+    <div class="md:container md:mr-16 md:ml-16 pt-2">
 
-        <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-10">
+        <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-0">
             <span class="text-black text-3xl font-bold">Find your perfect job with one of our vacancies</span>
             
         </div>

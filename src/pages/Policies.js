@@ -3,8 +3,8 @@ import PoliciesSection from '../components/PoliciesSection'
 
 function Policies() {
   return (
-    <div class="md:container  pt-14">
-        <div class="sm:flex sm:items-center sm:justify-center mx-12 mt-24">
+    <div class="md:container  pt-2">
+        <div class="sm:flex sm:items-center sm:justify-center mx-12 mt-0">
            <div>
               <div class="text-center font-semibold py-4 text-3xl">
                   <p class="relative inline-block pb-3">

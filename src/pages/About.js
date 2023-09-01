@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-distracting-elements */
 import React from 'react'
 import friends from "../images/multi-ethnic-disabled-people-community-with-pencils.jpg";
 import team from "../images/team_4540467.png"
@@ -8,8 +9,8 @@ import file from '../policies/Statement of purpose.pdf'
 
 function About() {
   return (
-    <div class="md:container md:mr-16 md:ml-16 pt-24">
-        <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-14">
+    <div class="md:container md:mr-16 md:ml-16 pt-2">
+        <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-0">
         <marquee class="font-cursive text-3xl font-semibold pt-8 text-purple-600"> <p class="text-2xl"><span class="text-3xl text-pinktheme ">OSH </span>
             are here to make a lifelong and lasting difference to young people's lives.</p></marquee>
             <br/>

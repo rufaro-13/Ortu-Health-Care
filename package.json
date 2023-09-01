@@ -6,6 +6,7 @@
     "@emailjs/browser": "^3.11.0",
     "cra-template": "1.2.0",
     "email-js": "^2.0.2",
+    "flowbite-react": "^0.5.0",
     "list-files": "^1.1.4",
     "list-react-files": "^0.2.0",
     "path-browserify": "^1.0.1",
@@ -18,7 +19,6 @@
   "browser": {
     "child_process": false
   },
-  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

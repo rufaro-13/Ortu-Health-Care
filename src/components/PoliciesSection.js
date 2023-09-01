@@ -6,17 +6,17 @@ import {Link} from "react-router-dom"
 function PoliciesSection() {
 
   return (
-    <div class="flex grid grid-cols-2 sm:items-center sm:justify-center mx-4 mt-2 px-2">
+    <div class="lg:flex grid lg:grid-cols-2 grid-cols-1 sm:items-center sm:justify-center mx-4 mt-2 px-2">
         
          {polfiles.map((file) => (
                 
-                <div class="col-span-1 flex ml-8 mt-2 px-8 items-start">
+                <div class="col-span-1 flex lg:ml-8 mt-2 lg:px-8 px-2 items-start">
                 <IconContext.Provider value={{ color: 'red', size: '25px', padding:'2px 2px' }}>
                     
                        <FaFilePdf class=" mx-1 my-1"/>
                    
                   </IconContext.Provider>
-                <p class="text-1xl">
+                <p class="md:text-1xl text-sm">
                 
                 <a href={file.file} class="text-blue-700 hover:underline" download={file.title}>{file.title}</a>
                 </p>

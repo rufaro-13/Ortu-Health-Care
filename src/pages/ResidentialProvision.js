@@ -1,13 +1,13 @@
-import React from 'react'
+//import React from 'react'
 import younggirl from '../images/young-disabled-african-american-woman-wheelchair-home.jpg'
 import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
-import {FaBookOpen, FaHandshakeAngle, FaSchool, FaStreetView, FaUserGroup} from 'react-icons/fa6'
+import {FaBookOpen, FaHandshakeAngle, FaSchool, FaStreetView} from 'react-icons/fa6'
 function ResidentialProvision() {
   return (
-    <div class="md:container md:mr-16 md:ml-16 pt-28">
+    <div class="md:container md:mr-16 md:ml-16 pt-2">
         
-         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-8">
+         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-0">
             <div class="md:w-1/2  sm:82 rounded-lg  sm:items-center sm:justify-center   mx-4 mt-8">
 
                 <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
