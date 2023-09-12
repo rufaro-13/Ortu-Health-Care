@@ -5,7 +5,7 @@ import {polfiles} from '../pages/Objects'
 function PoliciesSection() {
 
   return (
-    <div class="lg:flex grid lg:grid-cols-2 grid-cols-1 sm:items-center sm:justify-center mx-4 mt-2 px-2">
+    <div class=" grid lg:grid-cols-2 grid-cols-1 sm:items-center sm:justify-center mx-4 mt-2 px-2">
         
          {polfiles.map((file) => (
                 
@@ -21,7 +21,7 @@ function PoliciesSection() {
                 </p>
                 
               </div>
-            ))};
+            ))}
         
     </div>
   )
