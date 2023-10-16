@@ -153,7 +153,7 @@ function ResidentialProvision() {
                   In most cases, students choosing a Career Zone subject would be expected to have passed a level 2 qualification in that subject with a grade M.<br/><br/>
 
                   <span class="text-black text-1xl font-bold  ">1. Careers Guidance<br/></span>
-                  Employability and Career development are important parts of being a Clovelly student.<br/><br/>
+                  Employability and Career development are important parts of being an Ortu Specialised Home student.<br/><br/>
 
                   <span class="text-black text-1xl font-bold  ">2. Career Opportunities<br/><br/></span>
 

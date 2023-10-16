@@ -1,5 +1,5 @@
 import React from 'react'
-
+import{Link}  from "react-router-dom";
 function KS2toKS4() {
   return (
 <div>
@@ -12,7 +12,8 @@ function KS2toKS4() {
         <span class="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
     </p>
       <p className="mt-4 mb-4">Find out more about our Key Stage 3 Curriculum and our aims for each pupil.</p>
-      <button className="bg-bluetheme text-black px-3 py-2 rounded-md hover:bg-pinktheme">OUT KS3 INFO</button>
+      <Link to='/ks3'>
+        <button className="bg-bluetheme text-black px-3 py-2 rounded-md hover:bg-pinktheme">OUR KS3 INFO</button></Link>
     </div>
 
 
@@ -22,7 +23,7 @@ function KS2toKS4() {
         <span class="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
     </p>
       <p className="mt-4 mb-4">Find out more about our Key Stage 4 Curriculum and our aims for each pupil.</p>
-      <button className="bg-bluetheme text-black px-3 py-2 rounded-md hover:bg-pinktheme">OUR KS4 INFO</button>
+      <Link to='/ks4'><button className="bg-bluetheme text-black px-3 py-2 rounded-md hover:bg-pinktheme">OUR KS4 INFO</button></Link>
     </div>
 
 

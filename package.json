@@ -2,6 +2,7 @@
   "name": "ortu",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.ortuspecialisedhome.com/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "cra-template": "1.2.0",
