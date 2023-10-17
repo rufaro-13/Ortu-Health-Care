@@ -33,7 +33,7 @@ function KS2toKS4() {
         <span class="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
     </p>
       <p className="mt-4 mb-4">Intention and Implementation of the Curriculum – Careers.</p>
-      <button className="bg-bluetheme text-black px-3 py-2 rounded-md hover:bg-pinktheme">KS Careers</button>
+      <Link to='/ksCareer'><button className="bg-bluetheme text-black px-3 py-2 rounded-md hover:bg-pinktheme">KS Careers</button></Link>
     </div>
 
   </div>

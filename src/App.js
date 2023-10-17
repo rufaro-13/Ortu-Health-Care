@@ -12,6 +12,7 @@ import Policies from "./pages/Policies";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import KS3Info from './pages/KS3Info';
 import KS4Info from './pages/KS4Info';
+import KSCareers from './components/KSCareers';
 function App() {
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route forceRefresh={true} path='/policies' element= {<Policies/>}></Route>
         <Route forceRefresh={true} path='/ks3' element= {<KS3Info/>}></Route>
         <Route forceRefresh={true} path='/ks4' element= {<KS4Info/>}></Route>
+        <Route forceRefresh={true} path='/ksCareer' element= {<KSCareers/>}></Route>
         <Route forceRefresh={true} path='/terms_and_conditions' element= {<TermsAndConditions/>}></Route>
         
         </Route>
