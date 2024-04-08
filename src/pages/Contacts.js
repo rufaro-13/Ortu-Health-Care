@@ -47,7 +47,7 @@ function Contacts() {
 
         <div class="sm:flex sm:items-center sm:justify-center mx-8 mt-2 px-5">
             <p class="text-1xl">
-                If you wish to contact OSH please use the form on this page or send an email to the email address below.<br/><br/>
+                If you wish to contact Ortu Specialised Home please use the form on this page or send an email to the email address below.<br/><br/>
 
                 If it is urgent or you would prefer to talk to a person please use the telephone number listed below.
             </p>

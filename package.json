@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://www.ortuspecialisedhome.com/",
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@emailjs/browser": "^3.11.0",
     "cra-template": "1.2.0",
     "email-js": "^2.0.2",
@@ -45,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.24.1",
     "tailwindcss": "^3.3.3",
     "web-vitals": "^3.4.0"
   }

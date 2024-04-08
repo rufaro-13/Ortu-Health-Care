@@ -24,7 +24,7 @@ function App() {
         <Route forceRefresh={true}  path='/about' element= {<About/>}></Route>
         <Route forceRefresh={true} path='/contact' element= {<Contact/>}></Route>
         <Route forceRefresh={true} path='/our_team' element= {<Team/>}></Route>
-        <Route forceRefresh={true} path='/vacances' element= {<Vacances/>}></Route>
+        <Route forceRefresh={true} path='/vacancies' element= {<Vacances/>}></Route>
         <Route forceRefresh={true} path="/education_provision" element={<Education/>}/>
         <Route forceRefresh={true} path='/residential_provision' element= {<ResidentialProvision/>}></Route>
         <Route forceRefresh={true} path='/policies' element= {<Policies/>}></Route>

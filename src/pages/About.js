@@ -11,7 +11,7 @@ function About() {
   return (
     <div class="md:container md:mr-16 md:ml-16 pt-2">
         <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-0">
-        <marquee class="font-cursive text-3xl font-semibold pt-8 text-purple-600"> <p class="text-2xl"><span class="text-3xl text-pinktheme ">OSH </span>
+        <marquee class="font-cursive text-3xl font-semibold pt-8 text-purple-600"> <p class="text-2xl"><span class="text-3xl text-pinktheme ">Ortu Specialised Home </span>
             are here to make a lifelong and lasting difference to young people's lives.</p></marquee>
             <br/>
             
@@ -19,7 +19,7 @@ function About() {
 
         <div class=" sm:items-center sm:justify-center mx-6 mt-5">
             <p>
-            OSH provides residential care and education to young people. We provide a place of <span class="text-pinktheme ">safety</span>, <span class="text-pinktheme ">nurture</span>, and <span class="text-pinktheme ">wellbeing</span> within a trusted environment. 
+            Ortu Specialised Home provides residential care and education to young people. We provide a place of <span class="text-pinktheme ">safety</span>, <span class="text-pinktheme ">nurture</span>, and <span class="text-pinktheme ">wellbeing</span> within a trusted environment. 
             We have an extensive large team of professionals and practitioners that aim to meet the individual needs of each 
             young person, 
             enabling them to flourish and recognise their potential, with the safety and stabilisation of a family environment.
@@ -81,7 +81,7 @@ function About() {
                 Model alongside other life-enhancing experiences that contribute to building self-esteem.<br/><br/>
                 We understand how vital interactions and relationship building are to young people and how this enables them
                  to gain and make growth socially amongst the community and peer groups.<br/><br/>
-                 Ortu specialised home is founded with the belief that security, love, empowerment 
+                 Ortu Specialised Home is founded with the belief that security, love, empowerment 
                  and understanding. A child can grow, develop and become a contributing to society.
                 </p>
 
@@ -92,11 +92,11 @@ function About() {
             <div class=" sm:82 rounded-lg  sm:items-center sm:justify-center bg-slate-200  mx-4 mt-8">
 
                 <div class="flex sm:flex sm:items-center sm:justify-center mx-6 mt-5">
-                <span class="text-black lg:text-5xl text-1xl font-bold underline decoration-pinktheme mt-2">The OSH Team <br/><br/></span>
+                <span class="text-black lg:text-3xl text-1xl font-bold underline decoration-pinktheme mt-2">The Ortu Specialised Home Team <br/><br/></span>
                 <img src={team}class="lg:h-12 h-8 lg:ml-2 mt-2 " alt=""/>
                 </div>
 
-                <p class=" lg:text-3xl text-1xl font-normal">
+                <p class=" lg:text-1xl text-1xl font-normal">
                  See who is part of our Ortu team and what support we have available to our young people.
                 </p>
                 <div class="sm:flex sm:items-center sm:justify-center mx-6 mt-5">

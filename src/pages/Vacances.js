@@ -51,7 +51,7 @@ function Vacances() {
 
             <div class="text-center font-semibold py-4 text-3xl">
                   <p class="relative inline-block pb-3">
-                  Vacances
+                  Vacancies
                       <span class="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
                   </p>
               </div>

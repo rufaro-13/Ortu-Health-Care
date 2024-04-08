@@ -76,10 +76,10 @@ export default function NavigBar() {
                   Policies
                 </Link>
                 <Link
-                  to="vacances"
+                  to="vacancies"
                   className=" px-5 py-3  hover:bg-bluetheme"
                 >
-                  Vacances
+                  Vacancies
                 </Link>
                   
                 </div>

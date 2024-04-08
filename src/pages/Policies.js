@@ -17,7 +17,7 @@ function Policies() {
 
          <div class=" sm:items-center sm:justify-center md:mr-16 md:ml-16 mt-2 px-5">
             <p class="text-1xl">
-            Please find below a copy of our current policies for OSH, if you require any of them
+            Please find below a copy of our current policies for Ortu Specialised Home, if you require any of them
              to be provided in a different format or you have any queries please contact us at <a class="text-blue-700" href="ll" >info@ortuhome.com.</a>
             </p>
             <br/>
