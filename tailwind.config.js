@@ -19,7 +19,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        'hero_pattern': "url('/src/images/hero_image.jpg')",
+        'hero_pattern': "url('https://i.ibb.co/n8vYyDc/hero-image.jpg')",
         'team_work':"url('/src/images/team_4540467 (1).png')",
         
       },

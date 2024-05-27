@@ -33,10 +33,10 @@ export default function NavigBar() {
             Home
           </p> */}
         
-        <div className='text-white font-bold md:text-lg'><Dropdown
+        <div className='text-white font-bold md:text-base py-2'><Dropdown
           inline
           label="Home"
-          className='text-fuchsia-950 font-bold md:text-lg'
+          className='text-fuchsia-950 font-bold md:text-base'
         >
         <Dropdown.Header className='bg-gray-200'>
         <ul class="py-2 text-sm text-gray-700 dark:text-gray-400">
@@ -60,26 +60,26 @@ export default function NavigBar() {
           
         </Dropdown></div></Link>
 
-        <Link to="/about" className='text-white hover:bg-bluetheme py-2 '>
+        <Link to="/about" className='text-white md:text-base hover:bg-bluetheme py-2 '>
           About
         </Link>
 
-        <Link to="/education_provision" className='text-white  hover:bg-bluetheme py-2 '>
+        <Link to="/education_provision" className='text-white md:text-base hover:bg-bluetheme py-2 '>
           Education Provision
         </Link>
 
-        <Link to="/residential_provision" className='text-white  hover:bg-bluetheme py-2 '>
+        <Link to="/residential_provision" className='text-white md:text-base hover:bg-bluetheme py-2 '>
           Residential Provision
         </Link>
 
-        <Link to="/contact" className='text-white  hover:bg-bluetheme py-2 '>
+        <Link to="/contact" className='text-white md:text-base hover:bg-bluetheme py-2 '>
           Contact
         </Link>
         <div>
               
                 <Link
                   to="#"
-                  className=" text-white peer block py-2   hover:bg-bluetheme md:hover:bg-transparent md:hover:text-bluetheme lg:p-2 md:dark:hover:text-bluetheme dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className=" text-white peer block py-2 md:text-base  hover:bg-bluetheme md:hover:bg-transparent md:hover:text-bluetheme lg:p-2 md:dark:hover:text-bluetheme dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Quick Links
                 </Link>
