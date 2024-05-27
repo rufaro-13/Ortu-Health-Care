@@ -13,6 +13,7 @@ import TermsAndConditions from "./pages/TermsAndConditions";
 import KS3Info from './pages/KS3Info';
 import KS4Info from './pages/KS4Info';
 import KSCareers from './components/KSCareers';
+import Leicester from './pages/Leicester';
 function App() {
 
 
@@ -28,6 +29,7 @@ function App() {
         <Route forceRefresh={true} path="/education_provision" element={<Education/>}/>
         <Route forceRefresh={true} path='/residential_provision' element= {<ResidentialProvision/>}></Route>
         <Route forceRefresh={true} path='/policies' element= {<Policies/>}></Route>
+        <Route forceRefresh={true} path='/leicester' element= {<Leicester/>}></Route>
         <Route forceRefresh={true} path='/ks3' element= {<KS3Info/>}></Route>
         <Route forceRefresh={true} path='/ks4' element= {<KS4Info/>}></Route>
         <Route forceRefresh={true} path='/ksCareer' element= {<KSCareers/>}></Route>

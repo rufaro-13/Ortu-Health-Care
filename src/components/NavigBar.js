@@ -1,6 +1,6 @@
 'use client';
 
-import { Navbar } from 'flowbite-react';
+import {Dropdown,  Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
 import logo from '../images/ortu_png.png'
 export default function NavigBar() {
@@ -29,10 +29,36 @@ export default function NavigBar() {
           active
           to="/"
         >
-          <p className='text-white py-2 hover:bg-bluetheme'>
+          {/* <p className='text-white py-2 hover:bg-bluetheme'>
             Home
-          </p>
-        </Link>
+          </p> */}
+        
+        <div className='text-white font-bold md:text-lg'><Dropdown
+          inline
+          label="Home"
+          className='text-fuchsia-950 font-bold md:text-lg'
+        >
+        <Dropdown.Header className='bg-gray-200'>
+        <ul class="py-2 text-sm text-gray-700 dark:text-gray-400">
+        <Link to="/lancashire" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+        Lancashire
+        </Link><br/>
+        <Link to="/leicester" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+        Leicester
+        </Link><br/>
+        <Link to="/peterborough" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+        Peterborough 
+        </Link><br/>
+        <Link to="/yorkshire " className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+        Yorkshire 
+        </Link><br/>
+        <Link to="/westmidlands " className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+        West Midlands  
+        </Link><br/>
+                </ul>
+          </Dropdown.Header>
+          
+        </Dropdown></div></Link>
 
         <Link to="/about" className='text-white hover:bg-bluetheme py-2 '>
           About
