@@ -14,6 +14,8 @@ import missing from '../policies/72 Missing from care  Policy.pdf'
 import SelfHarm from '../policies/73 self harm.pdf'
 import OrtuHome from '../policies/Ortu Home and home child safeguarding policy.pdf'
 import Statement from '../policies/Statement of purpose.pdf'
+import Aims from '../policies/Aims and Objectives Elmfield  AVENUE .doc'
+
 export const polfiles = [
     {id: 1,
      title: " Admission Policy",
@@ -93,6 +95,11 @@ export const polfiles = [
     {id: 16,
         title: " Statement of purpose",
         file: Statement
+    },
+
+    {id: 17,
+        title: " Aims and Objectives - Elmfield House",
+        file: Aims
     }
 
 

@@ -14,6 +14,7 @@ import KS3Info from './pages/KS3Info';
 import KS4Info from './pages/KS4Info';
 import KSCareers from './components/KSCareers';
 import Leicester from './pages/Leicester';
+import HandHouse from './pages/HandHouse';
 function App() {
 
 
@@ -22,7 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout/>}>
         <Route index element = {<Home/>}></Route>
-        <Route forceRefresh={true}  path='/about' element= {<About/>}></Route>
+        <Route forceRefresh={true} path='/about' element= {<About/>}></Route>
         <Route forceRefresh={true} path='/contact' element= {<Contact/>}></Route>
         <Route forceRefresh={true} path='/our_team' element= {<Team/>}></Route>
         <Route forceRefresh={true} path='/vacancies' element= {<Vacances/>}></Route>
@@ -30,6 +31,7 @@ function App() {
         <Route forceRefresh={true} path='/residential_provision' element= {<ResidentialProvision/>}></Route>
         <Route forceRefresh={true} path='/policies' element= {<Policies/>}></Route>
         <Route forceRefresh={true} path='/leicester' element= {<Leicester/>}></Route>
+        <Route forceRefresh={true} path='/handhouse' element= {<HandHouse/>}></Route>
         <Route forceRefresh={true} path='/ks3' element= {<KS3Info/>}></Route>
         <Route forceRefresh={true} path='/ks4' element= {<KS4Info/>}></Route>
         <Route forceRefresh={true} path='/ksCareer' element= {<KSCareers/>}></Route>

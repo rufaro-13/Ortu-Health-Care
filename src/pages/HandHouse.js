@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Leicester() {
+function HandHouse() {
 
     const safeguardingteam = [
         {
@@ -9,59 +9,42 @@ function Leicester() {
          file: "https://i.ibb.co/hyd9mc5/40010.jpg",
          role: "Director",
          email: "Aida@ortuhome.com",
-         team: ["Safeguarding"]
+         team: ["Safeguarding","Management"]
         },
     
         {
             title: "Dale Mordlock",
             file: "https://i.ibb.co/hyd9mc5/40010.jpg",
             role: "Director",
-            email: "Aida@ortuhome.com",
-            team: ["Safeguarding"]
-        },
-
-        {
-            title: "Fiona Muddle",
-            file: "https://i.ibb.co/hyd9mc5/40010.jpg",
-            role: "RI and Compliance",
-            email: "Compliance@ortuhome.com",
+            email: "",
             team: ["Safeguarding","Management"]
         },
 
-        {
-            title: "Cidia Silva",
-            file: "https://i.ibb.co/hyd9mc5/40010.jpg",
-            role: "Deputy Manager ",
-            email: "Deputyeh@ortuhome.com",
-            team: ["Safeguarding","Management"]
-        },
 
         {
             title: "Netho Fuzane",
             file: "https://i.ibb.co/hyd9mc5/40010.jpg",
-            role: "Health and Safety",
+            role: "Interim Manager",
             email: "DeputyHH@ortuhome.com",
-            team: ["Management"]
-        },
-
-
-        {
-            title: "Maz Mawhasa",
-            file: "https://i.ibb.co/hyd9mc5/40010.jpg",
-            role: "Home Manager and DSL",
-            email: "managereh@ortuhome.com",
             team: ["Safeguarding","Management"]
         },
+
 
         {
             title: "Thando Mguni",
             file: "https://i.ibb.co/hyd9mc5/40010.jpg",
-            role: "Safeguarding Audit",
-            email: "DSL@ortuhome.com",
+            role: "DSL",
+            email: "Dsl@ortuhome.com",
             team: ["Safeguarding","Management"]
         },
 
-       
+       {
+            title: "Sibongile (Bongie) Ntuli",
+            file: "https://i.ibb.co/hyd9mc5/40010.jpg",
+            role: "",
+            email: "",
+            team: ["Safeguarding"]
+        },
         ];
 
         
@@ -71,7 +54,7 @@ function Leicester() {
       <div class="max-w-full sm:82 rounded-lg md:flex items-center sm:items-center sm:justify-center   mx-4 mt-1">
             <div class="text-center font-bold py-4 text-4xl">
                     <p class="relative inline-block pb-3">
-                        Emfield House 
+                        Hand House 
                         <span class="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
                     </p>
             </div>
@@ -140,7 +123,7 @@ function Leicester() {
         
         </div>
 
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-2 gap-4 mt-2" >
+        {/* <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-2 gap-4 mt-2" >
         
             <div>
                 <img class="mt-8 bg-gray-300 shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards  h-auto max-w-full rounded-lg" src="https://i.ibb.co/G7sWc38/IMG-20240523-WA0007.jpg" alt=""/>
@@ -177,10 +160,10 @@ function Leicester() {
                 <img class="mt-8 bg-gray-300 shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards  h-auto max-w-full rounded-lg" src="https://i.ibb.co/m0kz8PS/IMG-20240523-WA0009.jpg" alt=""/>
             </div>
             
-        </div>
+        </div> */}
 
     </div>
   )
 }
 
-export default Leicester
+export default HandHouse

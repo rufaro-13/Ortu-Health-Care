@@ -1,6 +1,6 @@
 'use client';
 
-import {Dropdown,  Navbar } from 'flowbite-react';
+import { Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
 import logo from '../images/ortu_png.png'
 export default function NavigBar() {
@@ -25,15 +25,16 @@ export default function NavigBar() {
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
-        <Link
+
+       {/*  <Link
           active
           to="/"
         >
-          {/* <p className='text-white py-2 hover:bg-bluetheme'>
+           <p className='text-white py-2 hover:bg-bluetheme'>
             Home
-          </p> */}
+          </p> 
         
-        <div className='text-white font-bold md:text-base py-2'><Dropdown
+       {/*  <div className='text-white font-bold md:text-base py-2'><Dropdown
           inline
           label="Home"
           className='text-fuchsia-950 font-bold md:text-base'
@@ -45,7 +46,46 @@ export default function NavigBar() {
         </Link><br/>
         <Link to="/leicester" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
         Leicester
-        </Link><br/>
+        </Link>
+        <div>
+              
+              <Link
+                to="#"
+                className=" text-white peer block py-2 md:text-base  hover:bg-bluetheme md:hover:bg-transparent md:hover:text-bluetheme lg:p-2 md:dark:hover:text-bluetheme dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Quick Links
+              </Link>
+              <div
+                class="absolute hidden peer-hover:flex hover:flex
+                w-[200px]
+                flex-col bg-white drop-shadow-lg
+                z-50"
+              >
+                <Link
+                to="our_team"
+                className=" px-5 py-3  hover:bg-bluetheme"
+              >
+                Our team
+              </Link>
+              <Link
+                to="policies"
+                className=" px-5 py-3 hover:bg-bluetheme"
+              >
+                Policies
+              </Link>
+              <Link
+                to="vacancies"
+                className=" px-5 py-3  hover:bg-bluetheme"
+              >
+                Vacancies
+              </Link>
+                
+              </div>
+            
+          </div>
+
+
+
         <Link to="/peterborough" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
         Peterborough 
         </Link><br/>
@@ -58,7 +98,50 @@ export default function NavigBar() {
                 </ul>
           </Dropdown.Header>
           
-        </Dropdown></div></Link>
+        </Dropdown></div>*/}{/* </Link>   */}
+         <div>
+              
+         <Link
+                   active
+                   to="/"
+                  className=" text-white peer block py-2 md:text-base  hover:bg-bluetheme md:hover:bg-transparent md:hover:text-bluetheme lg:p-2 md:dark:hover:text-bluetheme dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >
+                Home
+              </Link>
+              <div
+                class="absolute hidden peer-hover:flex hover:flex
+                w-[200px]
+                flex-col bg-white/90 drop-shadow-lg
+                z-50"
+              >
+                <Link to="/lancashire"  className="text-navcolour px-5 py-3 hover:bg-bluetheme">Lancashire</Link>
+        {/* <Link to="/leicester" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+        Leicester
+        </Link> */}
+        <div>
+              
+              <Link to="#"className=" text-navcolour peer block px-5 py-3 md:text-base  hover:bg-bluetheme md:hover:bg-transparent md:hover:text-bluetheme  md:dark:hover:text-bluetheme dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Leicester</Link>
+              <div
+                class="absolute hidden peer-hover:flex hover:flex
+                w-[200px]
+                flex-col bg-white drop-shadow-lg
+                z-50 translate-x-12"
+              >
+                <Link to="/leicester" className="text-navcolour px-5 py-3 hover:bg-bluetheme">Emfield House</Link>
+                <Link to="/handhouse"className="text-navcolour px-5 py-3 hover:bg-bluetheme">Hand House</Link>
+              
+              </div>
+            
+        </div>
+
+        <Link to="/peterborough"  className="text-navcolour px-5 py-3 hover:bg-bluetheme"> Peterborough </Link>
+        <Link to="/yorkshire " className="text-navcolour px-5 py-3 hover:bg-bluetheme"> Yorkshire  </Link>
+        <Link to="/westmidlands " className="text-navcolour px-5 py-3 hover:bg-bluetheme"> West Midlands </Link>
+                
+        </div>
+            
+          </div>
 
         <Link to="/about" className='text-white md:text-base hover:bg-bluetheme py-2 '>
           About
