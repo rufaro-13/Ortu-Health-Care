@@ -67,8 +67,8 @@ function Contacts() {
                   </IconContext.Provider>
                   <div class="  sm:items-center sm:justify-center  mt-1">
                     <p class=" text-1xl font-normal">
-                    <div><span class="text-black text-2xl font-bold"><a href="mailto:info@ortuhome.com" className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Email Us</a></span></div>
-                    info@ortuhome.com
+                    <div><span class="text-black text-2xl font-bold"><a href="mailto:aida@ortuhome.com" className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Email Us</a></span></div>
+                    aida@ortuhome.com
                     </p>
                   </div>
             </div>
@@ -76,7 +76,7 @@ function Contacts() {
             <div class="max-w-full  sm:82 rounded-lg  sm:items-center sm:justify-center  md:ml-48 mt-8">
 
                   <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
-                    <a href="tel:0116 221 3539"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                    <a href="tel:+447940456267"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                        <FaMobileScreenButton class="sm:items-center sm:justify-center  my-6"/>
                     </div></a>
                   </IconContext.Provider>
@@ -84,7 +84,7 @@ function Contacts() {
                     <p class=" text-1xl font-normal">
                     <div><span class="text-black text-2xl font-bold"><a href="tel:0116 221 3539" 
                     className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call Us</a></span></div>
-                    0116 221 3539
+                    +44 7940 456 267
                     </p>
                   </div>
 

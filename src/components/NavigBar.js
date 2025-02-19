@@ -114,7 +114,7 @@ export default function NavigBar() {
                 flex-col bg-white/90 drop-shadow-lg
                 z-50"
               >
-                <Link to="/lancashire"  className="text-navcolour px-5 py-3 hover:bg-bluetheme">Lancashire</Link>
+               {/*  <Link to="/lancashire"  className="text-navcolour px-5 py-3 hover:bg-bluetheme">Lancashire</Link> */}
         {/* <Link to="/leicester" className='text-fuchsia-950 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
         Leicester
         </Link> */}
@@ -129,16 +129,16 @@ export default function NavigBar() {
                 z-50 translate-x-12"
               >
                 <Link to="/leicester" className="text-navcolour px-5 py-3 hover:bg-bluetheme">Emfield House</Link>
-                <Link to="/handhouse"className="text-navcolour px-5 py-3 hover:bg-bluetheme">Hand House</Link>
+                <Link to="/northfield"className="text-navcolour px-5 py-3 hover:bg-bluetheme">NorthField House</Link>
               
               </div>
             
         </div>
 
         <Link to="/peterborough"  className="text-navcolour px-5 py-3 hover:bg-bluetheme"> Peterborough </Link>
-        <Link to="/yorkshire " className="text-navcolour px-5 py-3 hover:bg-bluetheme"> Yorkshire  </Link>
+        {/* <Link to="/yorkshire " className="text-navcolour px-5 py-3 hover:bg-bluetheme"> Yorkshire  </Link>
         <Link to="/westmidlands " className="text-navcolour px-5 py-3 hover:bg-bluetheme"> West Midlands </Link>
-                
+                 */}
         </div>
             
           </div>

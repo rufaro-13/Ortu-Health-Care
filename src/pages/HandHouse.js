@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function HandHouse() {
+function NorthFieldHouse() {
 
     const safeguardingteam = [
         {
@@ -166,4 +166,4 @@ function HandHouse() {
   )
 }
 
-export default HandHouse
+export default NorthFieldHouse

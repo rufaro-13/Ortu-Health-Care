@@ -12,14 +12,14 @@ function Leicester() {
          team: ["Safeguarding"]
         },
     
-        {
+        /* {
             title: "Dale Mordlock",
             file: "https://i.ibb.co/hyd9mc5/40010.jpg",
             role: "Director",
             email: "Aida@ortuhome.com",
             team: ["Safeguarding"]
         },
-
+ */
         {
             title: "Fiona Muddle",
             file: "https://i.ibb.co/hyd9mc5/40010.jpg",
@@ -28,7 +28,7 @@ function Leicester() {
             team: ["Safeguarding","Management"]
         },
 
-        {
+        /* {
             title: "Cidia Silva",
             file: "https://i.ibb.co/hyd9mc5/40010.jpg",
             role: "Deputy Manager ",
@@ -43,7 +43,7 @@ function Leicester() {
             email: "DeputyHH@ortuhome.com",
             team: ["Management"]
         },
-
+ */
 
         {
             title: "Maz Mawhasa",
@@ -51,7 +51,7 @@ function Leicester() {
             role: "Home Manager and DSL",
             email: "managereh@ortuhome.com",
             team: ["Safeguarding","Management"]
-        },
+        }/* ,
 
         {
             title: "Thando Mguni",
@@ -59,7 +59,7 @@ function Leicester() {
             role: "Safeguarding Audit",
             email: "DSL@ortuhome.com",
             team: ["Safeguarding","Management"]
-        },
+        }, */
 
        
         ];
@@ -90,7 +90,7 @@ function Leicester() {
         
         </div> 
 
-        <div className="  grid  lg:grid-cols-5 justify-items-center m-auto md:grid-cols-2 md:gap-4 grid-col-1 md:px-auto item-stretch ">
+        <div className="  grid  lg:grid-cols-3 justify-items-center m-auto md:grid-cols-2 md:gap-4 grid-col-1 md:px-auto item-stretch ">
 
         {safeguardingteam.map((file) => (
                 <div className="ml-4  mt-8 px-4 md:w-4/5 pt-1  h-fit w-2/3 shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards  rounded-lg bg-gray-300  ">

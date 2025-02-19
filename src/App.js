@@ -14,7 +14,7 @@ import KS3Info from './pages/KS3Info';
 import KS4Info from './pages/KS4Info';
 import KSCareers from './components/KSCareers';
 import Leicester from './pages/Leicester';
-import HandHouse from './pages/HandHouse';
+import NorthFieldHouse from './pages/HandHouse';
 import Peterborough from './pages/Peterborough';
 function App() {
 
@@ -32,7 +32,7 @@ function App() {
         <Route forceRefresh={true} path='/residential_provision' element= {<ResidentialProvision/>}></Route>
         <Route forceRefresh={true} path='/policies' element= {<Policies/>}></Route>
         <Route forceRefresh={true} path='/leicester' element= {<Leicester/>}></Route>
-        <Route forceRefresh={true} path='/handhouse' element= {<HandHouse/>}></Route>
+        <Route forceRefresh={true} path='/northfield' element= {<NorthFieldHouse/>}></Route>
         <Route forceRefresh={true} path='/peterborough' element= {<Peterborough/>}></Route>
         <Route forceRefresh={true} path='/ks3' element= {<KS3Info/>}></Route>
         <Route forceRefresh={true} path='/ks4' element= {<KS4Info/>}></Route>

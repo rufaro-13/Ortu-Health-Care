@@ -5,44 +5,37 @@ import './peter.css' */
 
 function Peterborough() {
     const safeguardingteam = [
-        {
-         title: "Aida Lockton",
-         file: "https://i.ibb.co/hyd9mc5/40010.jpg",
-         role: "Director",
-         email: "Aida@ortuhome.com",
-         team: ["Safeguarding","Management"]
-        },
     
         {
-            title: "Dale Mordlock",
+            title: "Ronnie Nkomo",
             file: "https://i.ibb.co/hyd9mc5/40010.jpg",
-            role: "Director",
+            role: "DSL",
+            email: "Dsl@ortuhome.com",
+            team: ["Safeguarding","Management"]
+        },
+        {
+            title: "Cidia Silva",
+            file: "https://i.ibb.co/hyd9mc5/40010.jpg",
+            role: "Manager",
             email: "",
             team: ["Safeguarding","Management"]
         },
 
 
         {
-            title: "Netho Fuzane",
+            title: "Joao Costa",
             file: "https://i.ibb.co/hyd9mc5/40010.jpg",
-            role: "Interim Manager",
+            role: "Deputy Manager & Deputy DSL",
             email: "DeputyHH@ortuhome.com",
             team: ["Safeguarding","Management"]
         },
 
 
-        {
-            title: "Thando Mguni",
-            file: "https://i.ibb.co/hyd9mc5/40010.jpg",
-            role: "DSL",
-            email: "Dsl@ortuhome.com",
-            team: ["Safeguarding","Management"]
-        },
 
        {
-            title: "Sibongile (Bongie) Ntuli",
+            title: "Fiona Muddle",
             file: "https://i.ibb.co/hyd9mc5/40010.jpg",
-            role: "",
+            role: "RI & Compliance",
             email: "",
             team: ["Safeguarding"]
         },
@@ -78,7 +71,7 @@ function Peterborough() {
         <div className="  grid  lg:grid-cols-5 justify-items-center m-auto md:grid-cols-2 md:gap-4 grid-col-1 md:px-auto item-stretch ">
 
         {safeguardingteam.map((file) => (
-                <div className="ml-4  mt-8 px-4 md:w-4/5 pt-1  h-fit w-2/3 shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards  rounded-lg bg-gray-300  ">
+                <div className="mx-auto  mt-8 px-4 md:w-4/5 pt-1  h-fit w-2/3 shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards  rounded-lg bg-gray-300  ">
     
                     <div className=" text-sm md:text-lg text-darkbluetheme dark:text-blue-500 sm:pt-1 lg:pt-4">
                     <h5 className="md:text-xl text-justify text-lg font-bold tracking-tight text-titleblue dark:text-white pt-2">
@@ -95,12 +88,12 @@ function Peterborough() {
                             <p className="text-start text-xs font-normal">
                             
                                 <b>Role:</b> {file.role}<br/>
-                                <b>Email:</b> {file.email}<br/>
+                                {/* <b>Email:</b> {file.email}<br/>
                                 <b>Team:</b> {file.team[0]} Team<br/>
                                 {
                                     (file.team).length >1 && <span><span hidden>Team:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{file.team[1]} Team</span>
                                     
-                                }
+                                } */}
                             </p>
                         </div>
                         
