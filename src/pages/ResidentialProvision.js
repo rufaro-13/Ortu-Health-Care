@@ -1,5 +1,5 @@
 //import React from 'react'
-import younggirl from '../images/young-disabled-african-american-woman-wheelchair-home.jpg'
+import younggirl from '../images/2151478231 (1).jpg'
 import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
 import {FaBookOpen, FaHandshakeAngle, FaSchool, FaStreetView} from 'react-icons/fa6'
