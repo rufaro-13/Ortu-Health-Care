@@ -107,7 +107,7 @@ function Peterborough() {
             </div>
 
 
-        <div class="max-w-full sm:82 rounded-lg md:flex    mx-4 mt-5">
+       {/*  <div class="max-w-full sm:82 rounded-lg md:flex    mx-4 mt-5">
             <div class="text-center font-semibold py-4 text-3xl">
                     <p class="relative inline-block pb-3">
                        Gallery 
@@ -165,7 +165,7 @@ function Peterborough() {
             </div>
 
             
-        </div>
+        </div> */}
 
     </div>
   )

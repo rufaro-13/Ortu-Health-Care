@@ -129,7 +129,7 @@ function Leicester() {
             </div>
 
 
-        <div class="max-w-full sm:82 rounded-lg md:flex    mx-4 mt-5">
+        {/* <div class="max-w-full sm:82 rounded-lg md:flex    mx-4 mt-5">
             <div class="text-center font-semibold py-4 text-3xl">
                     <p class="relative inline-block pb-3">
                        Gallery 
@@ -177,7 +177,7 @@ function Leicester() {
                 <img class="mt-8 bg-gray-300 shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards  h-auto max-w-full rounded-lg" src="https://i.ibb.co/m0kz8PS/IMG-20240523-WA0009.jpg" alt=""/>
             </div>
             
-        </div>
+        </div> */}
 
     </div>
   )
