@@ -5,7 +5,7 @@ import team from "../images/team_4540467.png"
 import { Link } from "react-router-dom";
 import { IconContext } from "react-icons";
 import { FaFilePdf } from 'react-icons/fa6';
-import file from '../policies/Statement of purpose.pdf'
+import file from '../policies/Statement of Purpose  2025.pdf'
 
 function About() {
   return (

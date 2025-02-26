@@ -1,19 +1,19 @@
-import AdmissionPolicy from '../policies/Admissions Policy.pdf'
-import DataProtection from '../policies/2 Data Protection and Access to Records Policy.pdf'
-import FirstAidPolicy from '../policies/4 First Aid Policy.pdf'
-import HealthAndSafety from '../policies/5 Health and Safety Policy.pdf'
-import ESafety from '../policies/7 E-Safety Policy.pdf'
-import WhistleBlowing from '../policies/6 Whistle Blowing Policy ORTU.pdf'
-import EQuality from '../policies/9 Equality and Diversity Policy.pdf'
-import Placement from '../policies/10 Placement Planning Policy.pdf'
-import Independent from '../policies/13 Indepedent saeguarding policy.pdf'
-import SafeGuarding from '../policies/14 safeguarding adults policy.pdf'
-import Accident from '../policies/21 First Aid and Accident Reporting Procedures.pdf'
-import Behaviour from '../policies/45 Behaviour management Policy.pdf'
-import missing from '../policies/72 Missing from care  Policy.pdf'
-import SelfHarm from '../policies/73 self harm.pdf'
-import OrtuHome from '../policies/Ortu Home and home child safeguarding policy.pdf'
-import Statement from '../policies/Statement of purpose.pdf'
+import AdmissionPolicy from '../policies/Admissions Policy 2025.pdf'
+import DataProtection from '../policies/Data Protection and Access to Records Policy 2025.pdf'
+import FirstAidPolicy from '../policies/First Aid Policy 2025.pdf'
+import HealthAndSafety from '../policies//Health and Safety Policy 2025.pdf'
+import ESafety from '../policies/E-Safety Policy 2025.pdf'
+import WhistleBlowing from '../policies/Whistle Blowing Policy ORTU 2025.pdf'
+import EQuality from '../policies/Equality and Diversity Policy 2025.pdf'
+import Placement from '../policies/Placement Planning Policy 2025.pdf'
+import Independent from '../policies/Indepedent saeguarding policy 2025.pdf'
+import SafeGuarding from '../policies/safeguarding adults policy 2025.pdf'
+import Accident from '../policies/First Aid and Accident Reporting Procedures 2025.pdf'
+import Behaviour from '../policies/Behaviour management Policy 2025.pdf'
+import missing from '../policies/Missing from care  Policy 2025.pdf'
+import SelfHarm from '../policies/Self Harm Policy 2025.pdf'
+import OrtuHome from '../policies/Child Protection and Safeguarding 2025.pdf'
+import Statement from '../policies/Statement of Purpose  2025.pdf'
 import Aims from '../policies/Aims and Objectives Elmfield  AVENUE .doc'
 
 export const polfiles = [
@@ -43,7 +43,7 @@ export const polfiles = [
     },
 
     {id: 6,
-        title: " Ortu Home and home child safeguarding policy",
+        title: " Child safeguarding policy",
         file: OrtuHome
     },
 

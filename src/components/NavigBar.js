@@ -129,7 +129,7 @@ export default function NavigBar() {
                 z-50 translate-x-12"
               >
                 <Link to="/leicester" className="text-navcolour px-5 py-3 hover:bg-bluetheme">Emfield House</Link>
-                <Link to="/northfield"className="text-navcolour px-5 py-3 hover:bg-bluetheme">NorthField House</Link>
+                <Link to="/northfield"className="text-navcolour px-5 py-3 hover:bg-bluetheme">Northfields House</Link>
               
               </div>
             

@@ -5,10 +5,10 @@ function Leicester() {
 
     const safeguardingteam = [
         {
-         title: "Aida Lockton",
+         title: "Seth Lockton",
          file: "https://i.ibb.co/hyd9mc5/40010.jpg",
-         role: "Director",
-         email: "Aida@ortuhome.com",
+         role: "Deputy Manager",
+         email: "DeputyElmfieldhouse@ortuhome.com",
          team: ["Safeguarding"]
         },
     

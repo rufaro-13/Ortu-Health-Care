@@ -54,7 +54,7 @@ function NorthFieldHouse() {
       <div class="max-w-full sm:82 rounded-lg md:flex items-center sm:items-center sm:justify-center   mx-4 mt-1">
             <div class="text-center font-bold py-4 text-4xl">
                     <p class="relative inline-block pb-3">
-                        Hand House 
+                        Northfields House 
                         <span class="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
                     </p>
             </div>
@@ -73,7 +73,7 @@ function NorthFieldHouse() {
         
         </div> 
 
-        <div className="  grid  lg:grid-cols-5 justify-items-center m-auto md:grid-cols-2 md:gap-4 grid-col-1 md:px-auto item-stretch ">
+        {/* <div className="  grid  lg:grid-cols-5 justify-items-center m-auto md:grid-cols-2 md:gap-4 grid-col-1 md:px-auto item-stretch ">
 
         {safeguardingteam.map((file) => (
                 <div className="ml-4  mt-8 px-4 md:w-4/5 pt-1  h-fit w-2/3 shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards  rounded-lg bg-gray-300  ">
@@ -110,9 +110,9 @@ function NorthFieldHouse() {
                 
 
             </div>
+ */}
 
-
-        <div class="max-w-full sm:82 rounded-lg md:flex    mx-4 mt-5">
+        {/* <div class="max-w-full sm:82 rounded-lg md:flex    mx-4 mt-5">
             <div class="text-center font-semibold py-4 text-3xl">
                     <p class="relative inline-block pb-3">
                        Gallery 
@@ -121,7 +121,7 @@ function NorthFieldHouse() {
             </div>
 
         
-        </div>
+        </div> */}
 
         {/* <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-2 gap-4 mt-2" >
         

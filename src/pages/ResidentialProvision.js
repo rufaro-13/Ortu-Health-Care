@@ -3,6 +3,7 @@ import younggirl from '../images/2151478231 (1).jpg'
 import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
 import {FaBookOpen, FaHandshakeAngle, FaSchool, FaStreetView} from 'react-icons/fa6'
+import file from '../policies/Admissions Policy 2025.pdf'
 function ResidentialProvision() {
   return (
     <div class="md:container mx-4 md:mr-16 md:ml-16 pt-2">
@@ -49,7 +50,7 @@ function ResidentialProvision() {
                     <div><span class="text-black md:text-1xl text-base font-bold">Admissions Policy</span></div>
                         Download a copy of our admissions policy <Link
                 to="/"className="block py-2 pl-3 pr-4 underline text-pinktheme rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-pinktheme dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >here.</Link>
+                ><a href={file} class="text-blue-700 hover:underline" download={"Admission Policy"}> here</a>.</Link>
                     </p>
                   </div>
         </div>
